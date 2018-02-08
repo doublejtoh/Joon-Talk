@@ -1,0 +1,775 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR.host	node_modules/uws/build/Makefile	/^AR.host ?= ar$/;"	m	line:62
+AR.target	node_modules/uws/build/Makefile	/^AR.target ?= $(AR)$/;"	m	line:49
+ASIO_H	node_modules/uws/src/Asio.h	2;"	d	line:2
+Address	node_modules/uws/src/Socket.h	/^    struct Address {$/;"	s	line:436	struct:uS::Socket
+Async	node_modules/uws/src/Asio.h	/^    Async(Loop *loop) : loop(loop), asio_work(*loop) {$/;"	f	line:74	struct:Async
+Async	node_modules/uws/src/Asio.h	/^struct Async {$/;"	s	line:67
+Async	node_modules/uws/src/Epoll.h	/^    Async(Loop *loop) : Poll(loop, ::eventfd(0, EFD_CLOEXEC)) {$/;"	f	line:218	struct:Async
+Async	node_modules/uws/src/Epoll.h	/^struct Async : Poll {$/;"	s	line:213
+Async	node_modules/uws/src/Libuv.h	/^    Async(Loop *loop) {$/;"	f	line:30	struct:Async
+Async	node_modules/uws/src/Libuv.h	/^struct Async {$/;"	s	line:27
+BACKEND_H	node_modules/uws/src/Backend.h	2;"	d	line:2
+BIN	node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:6
+BROWSERIFY	node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:16
+BUILDTYPE	node_modules/uws/build/Makefile	/^BUILDTYPE ?= Release$/;"	m	line:24
+CC.host	node_modules/uws/build/Makefile	/^CC.host ?= gcc$/;"	m	line:56
+CC.target	node_modules/uws/build/Makefile	/^CC.target ?= $(CC)$/;"	m	line:43
+CFLAGS.host	node_modules/uws/build/Makefile	/^CFLAGS.host ?= $(CPPFLAGS_host) $(CFLAGS_host)$/;"	m	line:57
+CFLAGS.target	node_modules/uws/build/Makefile	/^CFLAGS.target ?= $(CPPFLAGS) $(CFLAGS)$/;"	m	line:44
+CFLAGS_CC_Debug	node_modules/uws/build/uws.target.mk	/^CFLAGS_CC_Debug := \\$/;"	m	line:31
+CFLAGS_CC_Release	node_modules/uws/build/uws.target.mk	/^CFLAGS_CC_Release := \\$/;"	m	line:64
+CFLAGS_C_Debug	node_modules/uws/build/uws.target.mk	/^CFLAGS_C_Debug :=$/;"	m	line:28
+CFLAGS_C_Release	node_modules/uws/build/uws.target.mk	/^CFLAGS_C_Release :=$/;"	m	line:61
+CFLAGS_Debug	node_modules/uws/build/uws.target.mk	/^CFLAGS_Debug := \\$/;"	m	line:17
+CFLAGS_Release	node_modules/uws/build/uws.target.mk	/^CFLAGS_Release := \\$/;"	m	line:51
+CLIENT	node_modules/uws/src/WebSocketProtocol.h	/^    CLIENT,$/;"	e	line:21	enum:uWS::__anon2
+CONSUME_POST_PADDING	node_modules/uws/src/WebSocketProtocol.h	/^    static const int CONSUME_POST_PADDING = 4;$/;"	m	line:371	class:uWS::WebSocketProtocol
+CONSUME_PRE_PADDING	node_modules/uws/src/WebSocketProtocol.h	/^    static const int CONSUME_PRE_PADDING = LONG_MESSAGE_HEADER - 1;$/;"	m	line:372	class:uWS::WebSocketProtocol
+CXX.host	node_modules/uws/build/Makefile	/^CXX.host ?= g++$/;"	m	line:58
+CXX.target	node_modules/uws/build/Makefile	/^CXX.target ?= $(CXX)$/;"	m	line:45
+CXXFLAGS.host	node_modules/uws/build/Makefile	/^CXXFLAGS.host ?= $(CPPFLAGS_host) $(CXXFLAGS_host)$/;"	m	line:59
+CXXFLAGS.target	node_modules/uws/build/Makefile	/^CXXFLAGS.target ?= $(CPPFLAGS) $(CXXFLAGS)$/;"	m	line:46
+CloseFrame	node_modules/uws/src/WebSocketProtocol.h	/^    struct CloseFrame {$/;"	s	line:250	class:uWS::WebSocketProtocol
+ConnectionData	node_modules/uws/src/Hub.h	/^    struct ConnectionData {$/;"	s	line:15	struct:uWS::Hub
+Context	node_modules/uws/src/Networking.cpp	/^Context::Context(const Context &other)$/;"	f	line:7	class:uS::TLS::Context
+Context	node_modules/uws/src/Networking.h	/^    Context() {$/;"	f	line:88	struct:uS::Context
+Context	node_modules/uws/src/Networking.h	/^    Context(SSL_CTX *context) : context(context) {$/;"	f	line:175	class:uS::TLS::Context
+Context	node_modules/uws/src/Networking.h	/^class WIN32_EXPORT Context {$/;"	c	line:159	namespace:uS::TLS
+Context	node_modules/uws/src/Networking.h	/^struct Context {$/;"	s	line:82	namespace:uS
+DEFS_Debug	node_modules/uws/build/uws.target.mk	/^DEFS_Debug := \\$/;"	m	line:5
+DEFS_Release	node_modules/uws/build/uws.target.mk	/^DEFS_Release := \\$/;"	m	line:41
+DEPFLAGS	node_modules/uws/build/Makefile	/^DEPFLAGS = -MMD -MF $(depfile).raw$/;"	m	line:81
+ENABLED	node_modules/uws/src/WebSocket.h	/^        ENABLED,$/;"	m	line:21	struct:uWS::WebSocket	typeref:enum:uWS::WebSocket::
+EPOLL_H	node_modules/uws/src/Epoll.h	2;"	d	line:2
+EXTENSIONS_UWS_H	node_modules/uws/src/Extensions.h	2;"	d	line:2
+ExtensionTokens	node_modules/uws/src/Extensions.cpp	/^enum ExtensionTokens {$/;"	g	line:5	namespace:uWS	file:
+ExtensionsNegotiator	node_modules/uws/src/Extensions.cpp	/^ExtensionsNegotiator<isServer>::ExtensionsNegotiator(int wantedOptions) {$/;"	f	line:79	class:uWS::ExtensionsNegotiator
+ExtensionsNegotiator	node_modules/uws/src/Extensions.h	/^class ExtensionsNegotiator {$/;"	c	line:17	namespace:uWS
+ExtensionsParser	node_modules/uws/src/Extensions.cpp	/^ExtensionsParser::ExtensionsParser(const char *data, size_t length) {$/;"	f	line:45	class:uWS::ExtensionsParser
+ExtensionsParser	node_modules/uws/src/Extensions.cpp	/^class ExtensionsParser {$/;"	c	line:13	namespace:uWS	file:
+FORCE_SLOW_PATH	node_modules/uws/src/HTTPSocket.cpp	8;"	d	line:8	file:
+GROUP_UWS_H	node_modules/uws/src/Group.h	2;"	d	line:2
+GYP_CFLAGS	node_modules/uws/build/uws.target.mk	/^$(OBJS): GYP_CFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE))$/;"	m	line:91
+GYP_CXXFLAGS	node_modules/uws/build/uws.target.mk	/^$(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE))$/;"	m	line:92
+GYP_LDFLAGS	node_modules/uws/build/uws.target.mk	/^$(obj).target\/uws.node: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))$/;"	m	line:121
+Group	node_modules/uws/src/Group.cpp	/^Group<isServer>::Group(int extensionOptions, unsigned int maxPayload, Hub *hub, uS::NodeData *nodeData) : uS::NodeData(*nodeData), maxPayload(maxPayload), hub(hub), extensionOptions(extensionOptions) {$/;"	f	line:121	class:uWS::Group
+Group	node_modules/uws/src/Group.h	/^struct WIN32_EXPORT Group : private uS::NodeData {$/;"	s	line:19	namespace:uWS
+GroupData	node_modules/uws/src/addon.h	/^struct GroupData {$/;"	s	line:69
+HTTPSOCKET_UWS_H	node_modules/uws/src/HTTPSocket.h	2;"	d	line:2
+HUB_UWS_H	node_modules/uws/src/Hub.h	2;"	d	line:2
+Header	node_modules/uws/src/HTTPSocket.h	/^struct Header {$/;"	s	line:10	namespace:uWS
+HttpMethod	node_modules/uws/src/HTTPSocket.h	/^enum HttpMethod {$/;"	g	line:24	namespace:uWS
+HttpRequest	node_modules/uws/src/HTTPSocket.h	/^    HttpRequest(Header *headers = nullptr) : headers(headers) {}$/;"	f	line:43	struct:uWS::HttpRequest
+HttpRequest	node_modules/uws/src/HTTPSocket.h	/^struct HttpRequest {$/;"	s	line:37	namespace:uWS
+HttpResponse	node_modules/uws/src/HTTPSocket.h	/^    HttpResponse(HttpSocket<true> *httpSocket) : httpSocket(httpSocket) {$/;"	f	line:146	struct:uWS::HttpResponse
+HttpResponse	node_modules/uws/src/HTTPSocket.h	/^struct HttpResponse {$/;"	s	line:137	namespace:uWS
+HttpServer	node_modules/uws/src/http.h	/^struct HttpServer {$/;"	s	line:8
+HttpSocket	node_modules/uws/src/HTTPSocket.h	/^    HttpSocket(uS::Socket *socket) : uS::Socket(std::move(*socket)) {}$/;"	f	line:119	struct:uWS::HttpSocket
+HttpSocket	node_modules/uws/src/HTTPSocket.h	/^struct WIN32_EXPORT HttpSocket : uS::Socket {$/;"	s	line:109	namespace:uWS
+Hub	node_modules/uws/src/Hub.h	/^    Hub(int extensionOptions = 0, bool useDefaultLoop = false, unsigned int maxPayload = 16777216) : uS::Node(LARGE_BUFFER_SIZE, WebSocketProtocol<SERVER, WebSocket<SERVER>>::CONSUME_PRE_PADDING, WebSocketProtocol<SERVER, WebSocket<SERVER>>::CONSUME_POST_PADDING, useDefaultLoop),$/;"	f	line:46	struct:uWS::Hub
+Hub	node_modules/uws/src/Hub.h	/^struct WIN32_EXPORT Hub : private uS::Node, public Group<SERVER>, public Group<CLIENT> {$/;"	s	line:13	namespace:uWS
+INCS_Debug	node_modules/uws/build/uws.target.mk	/^INCS_Debug := \\$/;"	m	line:35
+INCS_Release	node_modules/uws/build/uws.target.mk	/^INCS_Release := \\$/;"	m	line:68
+INVALID_SOCKET	node_modules/uws/src/Networking.h	65;"	d	line:65
+Init	node_modules/uws/src/Networking.cpp	/^    Init() {SSL_library_init();}$/;"	f	line:31	struct:uS::TLS::Init
+Init	node_modules/uws/src/Networking.cpp	/^    Init() {signal(SIGPIPE, SIG_IGN);}$/;"	f	line:63	struct:uS::Init
+Init	node_modules/uws/src/Networking.cpp	/^struct Init {$/;"	s	line:30	namespace:uS::TLS	file:
+Init	node_modules/uws/src/Networking.cpp	/^struct Init {$/;"	s	line:62	namespace:uS	file:
+LARGE_BUFFER_SIZE	node_modules/uws/src/Hub.h	/^    static const int LARGE_BUFFER_SIZE = 300 * 1024;$/;"	m	line:25	struct:uWS::Hub
+LDFLAGS.host	node_modules/uws/build/Makefile	/^LDFLAGS.host ?=$/;"	m	line:61
+LDFLAGS.target	node_modules/uws/build/Makefile	/^LDFLAGS.target ?= $(LDFLAGS)$/;"	m	line:48
+LDFLAGS_Debug	node_modules/uws/build/uws.target.mk	/^LDFLAGS_Debug := \\$/;"	m	line:109
+LDFLAGS_Release	node_modules/uws/build/uws.target.mk	/^LDFLAGS_Release := \\$/;"	m	line:114
+LIBS	node_modules/uws/build/uws.target.mk	/^$(obj).target\/uws.node: LIBS := $(LIBS)$/;"	m	line:122
+LIBS	node_modules/uws/build/uws.target.mk	/^LIBS :=$/;"	m	line:119
+LIBUV_H	node_modules/uws/src/Libuv.h	2;"	d	line:2
+LINK	node_modules/uws/build/Makefile	/^LINK ?= $(CXX.target)$/;"	m	line:52
+LINK.host	node_modules/uws/build/Makefile	/^LINK.host ?= $(CXX.host)$/;"	m	line:60
+LINK.target	node_modules/uws/build/Makefile	/^LINK.target ?= $(LINK)$/;"	m	line:47
+LONG_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int LONG_MESSAGE_HEADER = isServer ? 14 : 10;$/;"	m	line:31	struct:uWS::WebSocketState
+LONG_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int LONG_MESSAGE_HEADER = isServer ? 14 : 10;$/;"	m	line:63	class:uWS::WebSocketProtocol
+ListenOptions	node_modules/uws/src/Group.h	/^enum ListenOptions {$/;"	g	line:12	namespace:uWS
+ListenSocket	node_modules/uws/src/Socket.h	/^    ListenSocket(NodeData *nodeData, Loop *loop, uv_os_sock_t fd, SSL *ssl) : Socket(nodeData, loop, fd, ssl) {$/;"	f	line:497	struct:uS::ListenSocket
+ListenSocket	node_modules/uws/src/Socket.h	/^struct ListenSocket : Socket {$/;"	s	line:495	namespace:uS
+Loop	node_modules/uws/src/Asio.h	/^struct Loop : boost::asio::io_service {$/;"	s	line:10
+Loop	node_modules/uws/src/Epoll.h	/^    Loop(bool defaultLoop) {$/;"	f	line:45	struct:Loop
+Loop	node_modules/uws/src/Epoll.h	/^struct Loop {$/;"	s	line:31
+Loop	node_modules/uws/src/Libuv.h	/^struct Loop : uv_loop_t {$/;"	s	line:7
+MAKEFLAGS	node_modules/uws/build/Makefile	/^MAKEFLAGS=-r$/;"	m	line:7
+MAX_HEADERS	node_modules/uws/src/HTTPSocket.cpp	6;"	d	line:6	file:
+MAX_HEADER_BUFFER_SIZE	node_modules/uws/src/HTTPSocket.cpp	7;"	d	line:7	file:
+MEDIUM_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int MEDIUM_MESSAGE_HEADER = isServer ? 8 : 4;$/;"	m	line:30	struct:uWS::WebSocketState
+MEDIUM_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int MEDIUM_MESSAGE_HEADER = isServer ? 8 : 4;$/;"	m	line:62	class:uWS::WebSocketProtocol
+METHOD_CONNECT	node_modules/uws/src/HTTPSocket.h	/^    METHOD_CONNECT,$/;"	e	line:33	enum:uWS::HttpMethod
+METHOD_DELETE	node_modules/uws/src/HTTPSocket.h	/^    METHOD_DELETE,$/;"	e	line:28	enum:uWS::HttpMethod
+METHOD_GET	node_modules/uws/src/HTTPSocket.h	/^    METHOD_GET,$/;"	e	line:25	enum:uWS::HttpMethod
+METHOD_HEAD	node_modules/uws/src/HTTPSocket.h	/^    METHOD_HEAD,$/;"	e	line:31	enum:uWS::HttpMethod
+METHOD_INVALID	node_modules/uws/src/HTTPSocket.h	/^    METHOD_INVALID$/;"	e	line:34	enum:uWS::HttpMethod
+METHOD_OPTIONS	node_modules/uws/src/HTTPSocket.h	/^    METHOD_OPTIONS,$/;"	e	line:30	enum:uWS::HttpMethod
+METHOD_PATCH	node_modules/uws/src/HTTPSocket.h	/^    METHOD_PATCH,$/;"	e	line:29	enum:uWS::HttpMethod
+METHOD_POST	node_modules/uws/src/HTTPSocket.h	/^    METHOD_POST,$/;"	e	line:26	enum:uWS::HttpMethod
+METHOD_PUT	node_modules/uws/src/HTTPSocket.h	/^    METHOD_PUT,$/;"	e	line:27	enum:uWS::HttpMethod
+METHOD_TRACE	node_modules/uws/src/HTTPSocket.h	/^    METHOD_TRACE,$/;"	e	line:32	enum:uWS::HttpMethod
+MSG_NOSIGNAL	node_modules/uws/src/Networking.h	14;"	d	line:14
+Main	node_modules/uws/src/addon.cpp	/^void Main(Local<Object> exports) {$/;"	f	line:5
+Message	node_modules/uws/src/Socket.h	/^        struct Message {$/;"	s	line:39	struct:uS::Socket::Queue
+NETWORKING_UWS_H	node_modules/uws/src/Networking.h	5;"	d	line:5
+NODE	node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:13
+NODE_UWS_H	node_modules/uws/src/Node.h	2;"	d	line:2
+NOMINMAX	node_modules/uws/src/Networking.h	26;"	d	line:26
+Namespace	node_modules/uws/src/addon.h	/^    Namespace (Isolate *isolate) {$/;"	f	line:431	struct:Namespace
+Namespace	node_modules/uws/src/addon.h	/^struct Namespace {$/;"	s	line:429
+NativeString	node_modules/uws/src/addon.h	/^    NativeString(const Local<Value> &value) {$/;"	f	line:32	class:NativeString
+NativeString	node_modules/uws/src/addon.h	/^class NativeString {$/;"	c	line:26
+Node	node_modules/uws/src/Node.cpp	/^Node::Node(int recvLength, int prePadding, int postPadding, bool useDefaultLoop) {$/;"	f	line:37	class:uS::Node
+Node	node_modules/uws/src/Node.h	/^class WIN32_EXPORT Node {$/;"	c	line:15	namespace:uS
+NodeData	node_modules/uws/src/Networking.h	/^struct WIN32_EXPORT NodeData {$/;"	s	line:199	namespace:uS
+OBJS	node_modules/uws/build/uws.target.mk	/^OBJS := \\$/;"	m	line:74
+PATH	node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m	line:9
+PKG	node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m	line:15
+Poll	node_modules/uws/src/Asio.h	/^    Poll(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:106	struct:Poll
+Poll	node_modules/uws/src/Asio.h	/^struct Poll {$/;"	s	line:102
+Poll	node_modules/uws/src/Epoll.h	/^    Poll(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:131	struct:Poll
+Poll	node_modules/uws/src/Epoll.h	/^struct Poll {$/;"	s	line:124
+Poll	node_modules/uws/src/Libuv.h	/^    Poll(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:96	struct:Poll
+Poll	node_modules/uws/src/Libuv.h	/^    Poll(Poll &&other) {$/;"	f	line:101	struct:Poll
+Poll	node_modules/uws/src/Libuv.h	/^struct Poll {$/;"	s	line:92
+PreparedMessage	node_modules/uws/src/WebSocket.h	/^    struct PreparedMessage {$/;"	s	line:58	namespace:uWS
+Queue	node_modules/uws/src/Socket.h	/^    struct Queue {$/;"	s	line:38	struct:uS::Socket
+REPORTER	node_modules/arraybuffer.slice/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/blob/Makefile	/^REPORTER = dot$/;"	m	line:1
+Request	node_modules/uws/src/http.h	/^    struct Request {$/;"	s	line:10	struct:HttpServer
+Response	node_modules/uws/src/http.h	/^    struct Response {$/;"	s	line:109	struct:HttpServer
+SERVER	node_modules/uws/src/WebSocketProtocol.h	/^    SERVER$/;"	e	line:22	enum:uWS::__anon2
+SHELL	node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:10
+SHORT_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int SHORT_MESSAGE_HEADER = isServer ? 6 : 2;$/;"	m	line:29	struct:uWS::WebSocketState
+SHORT_MESSAGE_HEADER	node_modules/uws/src/WebSocketProtocol.h	/^    static const unsigned int SHORT_MESSAGE_HEADER = isServer ? 6 : 2;$/;"	m	line:61	class:uWS::WebSocketProtocol
+SHUT_WR	node_modules/uws/src/Networking.h	30;"	d	line:30
+SND_COMPRESSED	node_modules/uws/src/WebSocketProtocol.h	/^        SND_COMPRESSED = 64$/;"	e	line:106	enum:uWS::WebSocketProtocol::__anon3
+SND_CONTINUATION	node_modules/uws/src/WebSocketProtocol.h	/^        SND_CONTINUATION = 1,$/;"	e	line:104	enum:uWS::WebSocketProtocol::__anon3
+SND_NO_FIN	node_modules/uws/src/WebSocketProtocol.h	/^        SND_NO_FIN = 2,$/;"	e	line:105	enum:uWS::WebSocketProtocol::__anon3
+SOCKET_ERROR	node_modules/uws/src/Networking.h	64;"	d	line:64
+SOCKET_UWS_H	node_modules/uws/src/Socket.h	2;"	d	line:2
+SSL_CTX_up_ref	node_modules/uws/src/Networking.h	9;"	d	line:9
+SSL_up_ref	node_modules/uws/src/Networking.h	10;"	d	line:10
+SendCallbackData	node_modules/uws/src/addon.h	/^struct SendCallbackData {$/;"	s	line:152
+Socket	node_modules/uws/src/Socket.h	/^    Socket(NodeData *nodeData, Loop *loop, uv_os_sock_t fd, SSL *ssl) : Poll(loop, fd), ssl(ssl), nodeData(nodeData) {$/;"	f	line:414	struct:uS::Socket
+Socket	node_modules/uws/src/Socket.h	/^struct WIN32_EXPORT Socket : Poll {$/;"	s	line:26	namespace:uS
+State	node_modules/uws/src/WebSocketProtocol.h	/^        State() {$/;"	f	line:44	struct:uWS::WebSocketState::State
+State	node_modules/uws/src/WebSocketProtocol.h	/^    struct State {$/;"	s	line:34	struct:uWS::WebSocketState
+TARGET	node_modules/uws/build/action_after_build.target.mk	/^TARGET := action_after_build$/;"	m	line:4
+TARGET	node_modules/uws/build/uws.target.mk	/^TARGET := uws$/;"	m	line:4
+THIS_DIR	node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:3
+THIS_MAKEFILE_PATH	node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:2
+TLS	node_modules/uws/src/Networking.cpp	/^namespace TLS {$/;"	n	line:5	namespace:uS	file:
+TLS	node_modules/uws/src/Networking.h	/^namespace TLS {$/;"	n	line:157	namespace:uS
+TOK_CLIENT_MAX_WINDOW_BITS	node_modules/uws/src/Extensions.cpp	/^    TOK_CLIENT_MAX_WINDOW_BITS = 2348$/;"	e	line:10	enum:uWS::ExtensionTokens	file:
+TOK_CLIENT_NO_CONTEXT_TAKEOVER	node_modules/uws/src/Extensions.cpp	/^    TOK_CLIENT_NO_CONTEXT_TAKEOVER = 2783,$/;"	e	line:8	enum:uWS::ExtensionTokens	file:
+TOK_PERMESSAGE_DEFLATE	node_modules/uws/src/Extensions.cpp	/^    TOK_PERMESSAGE_DEFLATE = 1838,$/;"	e	line:6	enum:uWS::ExtensionTokens	file:
+TOK_SERVER_MAX_WINDOW_BITS	node_modules/uws/src/Extensions.cpp	/^    TOK_SERVER_MAX_WINDOW_BITS = 2372,$/;"	e	line:9	enum:uWS::ExtensionTokens	file:
+TOK_SERVER_NO_CONTEXT_TAKEOVER	node_modules/uws/src/Extensions.cpp	/^    TOK_SERVER_NO_CONTEXT_TAKEOVER = 2807,$/;"	e	line:7	enum:uWS::ExtensionTokens	file:
+TOOLSET	node_modules/uws/build/Makefile	/^TOOLSET := target$/;"	m	line:261
+TOOLSET	node_modules/uws/build/action_after_build.target.mk	/^$(obj).target\/action_after_build.stamp: TOOLSET := $(TOOLSET)$/;"	m	line:26
+TOOLSET	node_modules/uws/build/action_after_build.target.mk	/^TOOLSET := target$/;"	m	line:3
+TOOLSET	node_modules/uws/build/action_after_build.target.mk	/^uws: TOOLSET := $(TOOLSET)$/;"	m	line:11
+TOOLSET	node_modules/uws/build/uws.target.mk	/^$(OBJS): TOOLSET := $(TOOLSET)$/;"	m	line:90
+TOOLSET	node_modules/uws/build/uws.target.mk	/^$(builddir)\/uws.node: TOOLSET := $(TOOLSET)$/;"	m	line:133
+TOOLSET	node_modules/uws/build/uws.target.mk	/^$(obj).target\/uws.node: TOOLSET := $(TOOLSET)$/;"	m	line:123
+TOOLSET	node_modules/uws/build/uws.target.mk	/^TOOLSET := target$/;"	m	line:3
+TRANSFERS	node_modules/uws/src/Group.h	/^    TRANSFERS$/;"	e	line:13	enum:uWS::ListenOptions
+Ticket	node_modules/uws/src/addon.h	/^struct Ticket {$/;"	s	line:195
+Timepoint	node_modules/uws/src/Epoll.h	/^struct Timepoint {$/;"	s	line:24
+Timer	node_modules/uws/src/Asio.h	/^    Timer(Loop *loop) : asio_timer(*loop) {$/;"	f	line:29	struct:Timer
+Timer	node_modules/uws/src/Asio.h	/^struct Timer {$/;"	s	line:25
+Timer	node_modules/uws/src/Epoll.h	/^    Timer(Loop *loop) {$/;"	f	line:70	struct:Timer
+Timer	node_modules/uws/src/Epoll.h	/^struct Timer {$/;"	s	line:66
+Timer	node_modules/uws/src/Libuv.h	/^    Timer(Loop *loop) {$/;"	f	line:60	struct:Timer
+Timer	node_modules/uws/src/Libuv.h	/^struct Timer {$/;"	s	line:57
+TransferData	node_modules/uws/src/Socket.h	/^struct TransferData {$/;"	s	line:8	namespace:uS
+USE_EPOLL	node_modules/uws/src/Backend.h	11;"	d	line:11
+UV_READABLE	node_modules/uws/src/Asio.h	/^static const int UV_READABLE = 1;$/;"	v	line:7
+UV_READABLE	node_modules/uws/src/Epoll.h	/^static const int UV_READABLE = EPOLLIN;$/;"	v	line:14
+UV_WRITABLE	node_modules/uws/src/Asio.h	/^static const int UV_WRITABLE = 2;$/;"	v	line:8
+UV_WRITABLE	node_modules/uws/src/Epoll.h	/^static const int UV_WRITABLE = EPOLLOUT;$/;"	v	line:15
+UWS_UWS_H	node_modules/uws/src/uWS.h	2;"	d	line:2
+WEBSOCKETPROTOCOL_UWS_H	node_modules/uws/src/WebSocketProtocol.h	2;"	d	line:2
+WEBSOCKET_UWS_H	node_modules/uws/src/WebSocket.h	2;"	d	line:2
+WIN32_EXPORT	node_modules/uws/src/Networking.h	42;"	d	line:42
+WIN32_EXPORT	node_modules/uws/src/Networking.h	66;"	d	line:66
+WebSocket	node_modules/uws/src/WebSocket.h	/^    WebSocket(bool perMessageDeflate, uS::Socket *socket) : uS::Socket(std::move(*socket)) {$/;"	f	line:26	namespace:uWS
+WebSocket	node_modules/uws/src/WebSocket.h	/^struct WIN32_EXPORT WebSocket : uS::Socket, WebSocketState<isServer> {$/;"	s	line:16	namespace:uWS
+WebSocketProtocol	node_modules/uws/src/WebSocketProtocol.h	/^    WebSocketProtocol() {$/;"	f	line:205	class:uWS::WebSocketProtocol
+WebSocketProtocol	node_modules/uws/src/WebSocketProtocol.h	/^class WIN32_EXPORT WebSocketProtocol {$/;"	c	line:59	namespace:uWS
+WebSocketState	node_modules/uws/src/WebSocketProtocol.h	/^struct WebSocketState {$/;"	s	line:27	namespace:uWS
+WindowsInit	node_modules/uws/src/Networking.cpp	/^    WindowsInit() {WSAStartup(MAKEWORD(2, 2), &wsaData);}$/;"	f	line:72	struct:uS::WindowsInit
+WindowsInit	node_modules/uws/src/Networking.cpp	/^struct WindowsInit {$/;"	s	line:70	namespace:uS	file:
+YARN	node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m	line:14
+__thread	node_modules/uws/src/Networking.h	36;"	d	line:36
+abs_builddir	node_modules/uws/build/Makefile	/^abs_builddir := $(abspath $(builddir))$/;"	m	line:30
+abs_obj	node_modules/uws/build/Makefile	/^abs_obj := $(abspath $(obj))$/;"	m	line:35
+abs_srcdir	node_modules/uws/build/Makefile	/^abs_srcdir := $(abspath $(srcdir))$/;"	m	line:11
+acceptSocket	node_modules/uws/src/Networking.h	/^    uv_os_sock_t acceptSocket(uv_os_sock_t fd) {$/;"	f	line:102	struct:uS::Context
+accept_cb	node_modules/uws/src/Node.h	/^    static void accept_cb(ListenSocket *listenSocket) {$/;"	f	line:35	class:uS::Node
+accept_poll_cb	node_modules/uws/src/Node.h	/^    static void accept_poll_cb(Poll *p, int status, int events) {$/;"	f	line:23	class:uS::Node
+accept_timer_cb	node_modules/uws/src/Node.h	/^    static void accept_timer_cb(Timer *p) {$/;"	f	line:29	class:uS::Node
+action_binding_gyp_action_after_build_target_move_lib_outputs	node_modules/uws/build/action_after_build.target.mk	/^action_binding_gyp_action_after_build_target_move_lib_outputs := uws$/;"	m	line:16
+addAsync	node_modules/uws/src/Group.h	/^    void addAsync() {$/;"	f	line:92	struct:uWS::Group
+addAsync	node_modules/uws/src/Networking.h	/^    void addAsync() {$/;"	f	line:241	struct:uS::NodeData
+addHttpSocket	node_modules/uws/src/Group.cpp	/^void Group<isServer>::addHttpSocket(HttpSocket<isServer> *httpSocket) {$/;"	f	line:44	class:uWS::Group
+addWebSocket	node_modules/uws/src/Group.cpp	/^void Group<isServer>::addWebSocket(WebSocket<isServer> *webSocket) {$/;"	f	line:90	class:uWS::Group
+address	node_modules/uws/src/Socket.h	/^        const char *address;$/;"	m	line:438	struct:uS::Socket::Address
+all_deps	node_modules/uws/build/Makefile	/^all_deps :=$/;"	m	line:39
+allocMessage	node_modules/uws/src/Socket.h	/^    Queue::Message *allocMessage(size_t length, const char *data = 0) {$/;"	f	line:287	struct:uS::Socket
+allocateHttpSocket	node_modules/uws/src/Hub.cpp	/^uS::Socket *allocateHttpSocket(uS::Socket *s) {$/;"	f	line:83	namespace:uWS
+allocateResponse	node_modules/uws/src/HTTPSocket.h	/^    static HttpResponse *allocateResponse(HttpSocket<isServer> *httpSocket) {$/;"	f	line:151	struct:uWS::HttpResponse
+asio_timer	node_modules/uws/src/Asio.h	/^    boost::asio::deadline_timer asio_timer;$/;"	m	line:26	struct:Timer
+asio_work	node_modules/uws/src/Asio.h	/^    boost::asio::io_service::work asio_work;$/;"	m	line:72	struct:Async
+async	node_modules/uws/src/Networking.h	/^    Async *async = nullptr;$/;"	m	line:210	struct:uS::NodeData
+asyncCallback	node_modules/uws/src/Node.cpp	/^void NodeData::asyncCallback(Async *async)$/;"	f	line:6	class:uS::NodeData
+asyncMutex	node_modules/uws/src/Networking.h	/^    std::recursive_mutex *asyncMutex;$/;"	m	line:213	struct:uS::NodeData
+asyncMutex	node_modules/uws/src/Node.h	/^    std::recursive_mutex asyncMutex;$/;"	m	line:77	class:uS::Node
+base64	node_modules/uws/src/HTTPSocket.cpp	/^static void base64(unsigned char *src, char *dst) {$/;"	f	line:41	namespace:uWS
+be64toh	node_modules/uws/src/Networking.h	22;"	d	line:22
+be64toh	node_modules/uws/src/Networking.h	34;"	d	line:34
+be64toh	node_modules/uws/src/Networking.h	38;"	d	line:38
+broadcast	node_modules/uws/src/Group.cpp	/^void Group<isServer>::broadcast(const char *message, size_t length, OpCode opCode) {$/;"	f	line:227	class:uWS::Group
+broadcast	node_modules/uws/src/addon.h	/^void broadcast(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:370
+buffer	node_modules/uws/src/WebSocket.h	/^        char *buffer;$/;"	m	line:59	struct:uWS::PreparedMessage
+builddir	node_modules/uws/build/Makefile	/^builddir ?= $(builddir_name)\/$(BUILDTYPE)$/;"	m	line:29
+builddir	node_modules/uws/build/action_after_build.target.mk	/^uws: builddir := $(abs_builddir)$/;"	m	line:10
+builddir_name	node_modules/uws/build/Makefile	/^builddir_name ?= .$/;"	m	line:14
+callback	node_modules/uws/src/Socket.h	/^            void (*callback)(void *socket, void *data, bool cancelled, void *reserved) = nullptr;$/;"	m	line:43	struct:uS::Socket::Queue::Message
+callback	node_modules/uws/src/WebSocket.h	/^        void(*callback)(void *webSocket, void *data, bool cancelled, void *reserved);$/;"	m	line:62	struct:uWS::PreparedMessage
+callbackData	node_modules/uws/src/Socket.h	/^            void *callbackData = nullptr, *reserved = nullptr;$/;"	m	line:44	struct:uS::Socket::Queue::Message
+callbacks	node_modules/uws/src/Epoll.cpp	/^void (*callbacks[16])(Poll *, int, int);$/;"	v	line:7
+cancelTimeout	node_modules/uws/src/Socket.h	/^    void cancelTimeout() {$/;"	f	line:135	struct:uS::Socket
+cancelledLastTimer	node_modules/uws/src/Epoll.h	/^    bool cancelledLastTimer;$/;"	m	line:34	struct:Loop
+cb	node_modules/uws/src/Asio.h	/^    void (*cb)(Async *);$/;"	m	line:69	struct:Async
+cb	node_modules/uws/src/Asio.h	/^    void (*cb)(Poll *p, int status, int events);$/;"	m	line:104	struct:Poll
+cb	node_modules/uws/src/Epoll.h	/^    void (*cb)(Async *);$/;"	m	line:214	struct:Async
+cb	node_modules/uws/src/Epoll.h	/^    void (*cb)(Timer *);$/;"	m	line:25	struct:Timepoint
+cb	node_modules/uws/src/Libuv.h	/^    void (*cb)(Poll *p, int status, int events);$/;"	m	line:94	struct:Poll
+cbHead	node_modules/uws/src/Epoll.cpp	/^int cbHead = 0;$/;"	v	line:8
+cbIndex	node_modules/uws/src/Epoll.h	/^        unsigned int cbIndex : 4;$/;"	m	line:128	struct:Poll::__anon4
+cbMutex	node_modules/uws/src/Epoll.cpp	/^std::recursive_mutex cbMutex;$/;"	v	line:6
+change	node_modules/uws/src/Asio.h	/^    void change(Loop *, Poll *self, int events) {$/;"	f	line:153	struct:Poll
+change	node_modules/uws/src/Epoll.h	/^    void change(Loop *loop, Poll *self, int events) {$/;"	f	line:169	struct:Poll
+change	node_modules/uws/src/Libuv.h	/^    void change(Loop *, Poll *self, int events) {$/;"	f	line:149	struct:Poll
+changePoll	node_modules/uws/src/Socket.h	/^    void changePoll(Socket *socket) {$/;"	f	line:108	struct:uS::Socket
+changePollQueue	node_modules/uws/src/Networking.h	/^    std::vector<Poll *> changePollQueue;$/;"	m	line:215	struct:uS::NodeData
+check	node_modules/uws/src/addon.h	/^uv_check_t check;$/;"	v	line:12
+clearPendingPollChanges	node_modules/uws/src/Networking.h	/^    void clearPendingPollChanges(Poll *p) {$/;"	f	line:247	struct:uS::NodeData
+clearUserData	node_modules/uws/src/addon.h	/^void clearUserData(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:116
+clientContext	node_modules/uws/src/Networking.h	/^    SSL_CTX *clientContext;$/;"	m	line:208	struct:uS::NodeData
+clientMaxWindowBits	node_modules/uws/src/Extensions.cpp	/^    int clientMaxWindowBits = 0;$/;"	m	line:22	class:uWS::ExtensionsParser	file:
+clientNoContextTakeover	node_modules/uws/src/Extensions.cpp	/^    bool clientNoContextTakeover = false;$/;"	m	line:20	class:uWS::ExtensionsParser	file:
+close	node_modules/uws/src/Asio.h	/^    void close() {$/;"	f	line:60	struct:Timer
+close	node_modules/uws/src/Asio.h	/^    void close() {$/;"	f	line:87	struct:Async
+close	node_modules/uws/src/Asio.h	/^    void close(Loop *loop, void (*cb)(Poll *)) {$/;"	f	line:174	struct:Poll
+close	node_modules/uws/src/Epoll.h	/^    void close() {$/;"	f	line:118	struct:Timer
+close	node_modules/uws/src/Epoll.h	/^    void close() {$/;"	f	line:240	struct:Async
+close	node_modules/uws/src/Epoll.h	/^    void close(Loop *loop, void (*cb)(Poll *)) {$/;"	f	line:195	struct:Poll
+close	node_modules/uws/src/Group.cpp	/^void Group<isServer>::close(int code, char *message, size_t length) {$/;"	f	line:249	class:uWS::Group
+close	node_modules/uws/src/Libuv.h	/^    void close() {$/;"	f	line:42	struct:Async
+close	node_modules/uws/src/Libuv.h	/^    void close() {$/;"	f	line:80	struct:Timer
+close	node_modules/uws/src/Libuv.h	/^    void close(Loop *loop, void (*cb)(Poll *)) {$/;"	f	line:165	struct:Poll
+close	node_modules/uws/src/Networking.h	/^inline void close(SOCKET fd) {closesocket(fd);}$/;"	f	line:44
+close	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::close(int code, const char *message, size_t length) {$/;"	f	line:248	class:uWS::WebSocket
+closeGroup	node_modules/uws/src/addon.h	/^void closeGroup(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:358
+closeSocket	node_modules/uws/src/Networking.h	/^    void closeSocket(uv_os_sock_t fd) {$/;"	f	line:140	struct:uS::Context
+closeSocket	node_modules/uws/src/Socket.h	/^    void closeSocket() {$/;"	f	line:472	struct:uS::Socket
+closeSocket	node_modules/uws/src/addon.h	/^void closeSocket(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:347
+closing	node_modules/uws/src/Epoll.h	/^    std::vector<std::pair<Poll *, void (*)(Poll *)>> closing;$/;"	m	line:39	struct:Loop
+cmd_alink	node_modules/uws/build/Makefile	/^cmd_alink = rm -f $@ && $(AR.$(TOOLSET)) crs $@ $(filter %.o,$^)$/;"	m	line:137
+cmd_alink_thin	node_modules/uws/build/Makefile	/^cmd_alink_thin = rm -f $@ && $(AR.$(TOOLSET)) crsT $@ $(filter %.o,$^)$/;"	m	line:140
+cmd_binding_gyp_action_after_build_target_move_lib	node_modules/uws/build/action_after_build.target.mk	/^cmd_binding_gyp_action_after_build_target_move_lib = LD_LIBRARY_PATH=$(builddir)\/lib.host:$(builddir)\/lib.target:$$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd $(srcdir)\/.; cp "$(builddir)\/uws.node" uws_linux_48.node$/;"	m	line:7
+cmd_cc	node_modules/uws/build/Makefile	/^cmd_cc = $(CC.$(TOOLSET)) $(GYP_CFLAGS) $(DEPFLAGS) $(CFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m	line:124
+cmd_copy	node_modules/uws/build/Makefile	/^cmd_copy = rm -rf "$@" && cp -af "$<" "$@"$/;"	m	line:134
+cmd_cxx	node_modules/uws/build/Makefile	/^cmd_cxx = $(CXX.$(TOOLSET)) $(GYP_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m	line:127
+cmd_link	node_modules/uws/build/Makefile	/^cmd_link = $(LINK.$(TOOLSET)) $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o $@ -Wl,--start-group $(LD_INPUTS) -Wl,--end-group $(LIBS)$/;"	m	line:146
+cmd_regen_makefile	node_modules/uws/build/Makefile	/^cmd_regen_makefile = cd $(srcdir); \/usr\/lib\/node_modules\/npm\/node_modules\/node-gyp\/gyp\/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I\/workspace\/pracitce_js\/node_modules\/uws\/build\/config.gypi -I\/usr\/lib\/node_modules\/npm\/node_modules\/node-gyp\/addon.gypi -I\/root\/.node-gyp\/6.11.0\/include\/node\/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=\/root\/.node-gyp\/6.11.0" "-Dnode_gyp_dir=\/usr\/lib\/node_modules\/npm\/node_modules\/node-gyp" "-Dnode_lib_file=node.lib" "-Dmodule_root_dir=\/workspace\/pracitce_js\/node_modules\/uws" binding.gyp$/;"	m	line:316
+cmd_solink	node_modules/uws/build/Makefile	/^cmd_solink = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -Wl,-soname=$(@F) -o $@ -Wl,--whole-archive $(LD_INPUTS) -Wl,--no-whole-archive $(LIBS)$/;"	m	line:165
+cmd_solink_module	node_modules/uws/build/Makefile	/^cmd_solink_module = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -Wl,-soname=$(@F) -o $@ -Wl,--start-group $(filter-out FORCE_DO_CMD, $^) -Wl,--end-group $(LIBS)$/;"	m	line:168
+cmd_touch	node_modules/uws/build/Makefile	/^cmd_touch = touch $@$/;"	m	line:130
+code	node_modules/uws/src/WebSocketProtocol.h	/^        uint16_t code;$/;"	m	line:251	struct:uWS::WebSocketProtocol::CloseFrame
+command_changed	node_modules/uws/build/Makefile	/^command_changed = $(or $(subst $(cmd_$(1)),,$(cmd_$(call replace_spaces,$@))),\\$/;"	m	line:197
+compressionStatus	node_modules/uws/src/WebSocket.h	/^    } compressionStatus;$/;"	m	line:23	namespace:uWS	typeref:struct:uWS::WebSocket
+connect	node_modules/uws/src/Hub.cpp	/^void Hub::connect(std::string uri, void *user, std::map<std::string, std::string> extraHeaders, int timeoutMs, Group<CLIENT> *eh) {$/;"	f	line:87	class:uWS::Hub
+connect	node_modules/uws/src/Node.h	/^    Socket *connect(const char *hostname, int port, bool secure, NodeData *nodeData) {$/;"	f	line:89	class:uS::Node
+connect	node_modules/uws/src/addon.h	/^void connect(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:189
+connect_cb	node_modules/uws/src/Node.h	/^    static void connect_cb(Poll *p, int status, int events) {$/;"	f	line:18	class:uS::Node
+connectionHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *, HttpRequest)> connectionHandler;$/;"	m	line:26	struct:uWS::Group
+connectionHandler	node_modules/uws/src/addon.h	/^    Persistent<Function> connectionHandler, messageHandler,$/;"	m	line:70	struct:GroupData
+consume	node_modules/uws/src/WebSocketProtocol.h	/^    static inline void consume(char *src, unsigned int length, WebSocketState<isServer> *wState) {$/;"	f	line:329	class:uWS::WebSocketProtocol
+consumeContinuation	node_modules/uws/src/WebSocketProtocol.h	/^    static inline bool consumeContinuation(char *&src, unsigned int &length, WebSocketState<isServer> *wState) {$/;"	f	line:165	class:uWS::WebSocketProtocol
+consumeMessage	node_modules/uws/src/WebSocketProtocol.h	/^    static inline bool consumeMessage(T payLength, char *&src, unsigned int &length, WebSocketState<isServer> *wState) {$/;"	f	line:110	class:uWS::WebSocketProtocol
+contentLength	node_modules/uws/src/HTTPSocket.h	/^    size_t contentLength = 0;$/;"	m	line:116	struct:uWS::HttpSocket
+context	node_modules/uws/src/Networking.h	/^    SSL_CTX *context = nullptr;$/;"	m	line:161	class:uS::TLS::Context
+controlTipLength	node_modules/uws/src/WebSocket.h	/^    unsigned char controlTipLength = 0, hasOutstandingPong = false;$/;"	m	line:24	namespace:uWS
+cork	node_modules/uws/src/Socket.h	/^    void cork(int enable) {$/;"	f	line:448	struct:uS::Socket
+createContext	node_modules/uws/src/Networking.cpp	/^Context createContext(std::string certChainFileName, std::string keyFileName, std::string keyFilePassword)$/;"	f	line:35	namespace:uS::TLS
+createGroup	node_modules/uws/src/Hub.h	/^    Group<isServer> *createGroup(int extensionOptions = 0, unsigned int maxPayload = 16777216) {$/;"	f	line:32	struct:uWS::Hub
+createGroup	node_modules/uws/src/addon.h	/^void createGroup(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:78
+createLoop	node_modules/uws/src/Asio.h	/^    static Loop *createLoop(bool defaultLoop = true) {$/;"	f	line:12	struct:Loop
+createLoop	node_modules/uws/src/Epoll.h	/^    static Loop *createLoop(bool defaultLoop = true) {$/;"	f	line:50	struct:Loop
+createLoop	node_modules/uws/src/Libuv.h	/^    static Loop *createLoop(bool defaultLoop = true) {$/;"	f	line:8	struct:Loop
+createServer	node_modules/uws/src/http.h	/^    static void createServer(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:201	struct:HttpServer
+createSocket	node_modules/uws/src/Networking.h	/^    uv_os_sock_t createSocket(int domain, int type, int protocol) {$/;"	f	line:122	struct:uS::Context
+currentReq	node_modules/uws/src/http.h	/^uWS::HttpRequest *currentReq = nullptr;$/;"	v	line:6
+d_files	node_modules/uws/build/Makefile	/^d_files := $(wildcard $(foreach f,$(all_deps),$(depsdir)\/$(f).d))$/;"	m	line:326
+data	node_modules/uws/src/Asio.h	/^    void *data;$/;"	m	line:27	struct:Timer
+data	node_modules/uws/src/Asio.h	/^    void *data;$/;"	m	line:70	struct:Async
+data	node_modules/uws/src/Epoll.h	/^    void *data;$/;"	m	line:216	struct:Async
+data	node_modules/uws/src/Epoll.h	/^    void *data;$/;"	m	line:68	struct:Timer
+data	node_modules/uws/src/Socket.h	/^            const char *data;$/;"	m	line:40	struct:uS::Socket::Queue::Message
+data	node_modules/uws/src/addon.h	/^    char *data;$/;"	m	line:27	class:NativeString
+delay	node_modules/uws/src/Epoll.h	/^    int delay = -1;$/;"	m	line:35	struct:Loop
+deleteGroup	node_modules/uws/src/addon.h	/^void deleteGroup(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:85
+depfile	node_modules/uws/build/Makefile	/^depfile = $(depsdir)\/$(call replace_spaces,$@).d$/;"	m	line:80
+depsdir	node_modules/uws/build/Makefile	/^depsdir := $(builddir)\/.deps$/;"	m	line:31
+destination	node_modules/uws/src/Socket.h	/^    NodeData *destination;$/;"	m	line:21	struct:uS::TransferData
+destroy	node_modules/uws/src/Asio.h	/^    void destroy() {$/;"	f	line:16	struct:Loop
+destroy	node_modules/uws/src/Epoll.h	/^    void destroy() {$/;"	f	line:54	struct:Loop
+destroy	node_modules/uws/src/Libuv.h	/^    void destroy() {$/;"	f	line:16	struct:Loop
+dirx	node_modules/uws/build/Makefile	/^dirx = $(call unreplace_spaces,$(dir $(call replace_spaces,$1)))$/;"	m	line:74
+disconnectionHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *, int code, char *message, size_t length)> disconnectionHandler;$/;"	m	line:29	struct:uWS::Group
+disconnectionHandler	node_modules/uws/src/addon.h	/^                         disconnectionHandler, pingHandler,$/;"	m	line:71	struct:GroupData
+do_cmd	node_modules/uws/build/Makefile	/^define do_cmd$/;"	m	line:229
+do_postbuilds	node_modules/uws/build/Makefile	/^define do_postbuilds$/;"	m	line:208
+dup	node_modules/uws/src/Networking.h	/^inline SOCKET dup(SOCKET socket) {$/;"	f	line:49
+dynamicInflationBuffer	node_modules/uws/src/Hub.h	/^    std::string dynamicInflationBuffer;$/;"	m	line:24	struct:uWS::Hub
+empty	node_modules/uws/build/Makefile	/^empty :=$/;"	m	line:68
+empty	node_modules/uws/src/Socket.h	/^        bool empty() {return head == nullptr;}$/;"	f	line:60	struct:uS::Socket::Queue
+end	node_modules/uws/src/HTTPSocket.h	/^    void end(const char *message = nullptr, size_t length = 0,$/;"	f	line:190	struct:uWS::HttpResponse
+end	node_modules/uws/src/http.h	/^        static void end(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:120	struct:HttpServer::Response
+enqueue	node_modules/uws/src/Socket.h	/^    void enqueue(Queue::Message *message) {$/;"	f	line:283	struct:uS::Socket
+epfd	node_modules/uws/src/Epoll.h	/^    int epfd;$/;"	m	line:32	struct:Loop
+errorHandler	node_modules/uws/src/addon.h	/^                         pongHandler, errorHandler, httpRequestHandler,$/;"	m	line:72	struct:GroupData
+escape_quotes	node_modules/uws/build/Makefile	/^escape_quotes = $(subst ','\\'',$(1))$/;"	m	line:174
+escape_vars	node_modules/uws/build/Makefile	/^escape_vars = $(subst $$,$$$$,$(1))$/;"	m	line:179
+exact_echo	node_modules/uws/build/Makefile	/^exact_echo = printf '%s\\n' '$(call escape_quotes,$(1))'$/;"	m	line:184
+extensionOptions	node_modules/uws/src/Group.h	/^    int extensionOptions;$/;"	m	line:44	struct:uWS::Group
+extraUserData	node_modules/uws/src/HTTPSocket.h	/^    void *extraUserData = nullptr;$/;"	m	line:141	struct:uWS::HttpResponse
+family	node_modules/uws/src/Socket.h	/^        const char *family;$/;"	m	line:439	struct:uS::Socket::Address
+fastTransfer	node_modules/uws/src/Asio.h	/^    bool fastTransfer(Loop *loop, Loop *newLoop, int events) {$/;"	f	line:158	struct:Poll
+fastTransfer	node_modules/uws/src/Epoll.h	/^    bool fastTransfer(Loop *loop, Loop *newLoop, int events) {$/;"	f	line:181	struct:Poll
+fastTransfer	node_modules/uws/src/Libuv.h	/^    bool fastTransfer(Loop *loop, Loop *newLoop, int events) {$/;"	f	line:157	struct:Poll
+fd	node_modules/uws/src/Epoll.h	/^        int fd : 28;$/;"	m	line:127	struct:Poll::__anon4
+fd	node_modules/uws/src/Socket.h	/^    uv_os_sock_t fd;$/;"	m	line:10	struct:uS::TransferData
+fd	node_modules/uws/src/addon.h	/^    uv_os_sock_t fd;$/;"	m	line:196	struct:Ticket
+finalizeMessage	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::finalizeMessage(typename WebSocket<isServer>::PreparedMessage *preparedMessage) {$/;"	f	line:166	class:uWS::WebSocket
+finalizeMessage	node_modules/uws/src/addon.h	/^void finalizeMessage(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:391
+fixup_dep	node_modules/uws/build/Makefile	/^define fixup_dep$/;"	m	line:103
+forEach	node_modules/uws/src/Group.h	/^    void forEach(const F &cb) {$/;"	f	line:105	struct:uWS::Group
+forEach	node_modules/uws/src/addon.h	/^void forEach(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:395
+forEachHttpSocket	node_modules/uws/src/Group.h	/^    void forEachHttpSocket(const F &cb) {$/;"	f	line:122	struct:uWS::Group
+forceClose	node_modules/uws/src/WebSocket.h	/^    static void forceClose(WebSocketState<isServer> *webSocketState) {$/;"	f	line:50	namespace:uWS
+formatClosePayload	node_modules/uws/src/WebSocketProtocol.h	/^    static inline size_t formatClosePayload(char *dst, uint16_t code, const char *message, size_t length) {$/;"	f	line:269	class:uWS::WebSocketProtocol
+formatMessage	node_modules/uws/src/WebSocketProtocol.h	/^    static inline size_t formatMessage(char *dst, const char *src, size_t length, OpCode opCode, size_t reportedLength, bool compressed) {$/;"	f	line:279	class:uWS::WebSocketProtocol
+fragmentBuffer	node_modules/uws/src/WebSocket.h	/^    std::string fragmentBuffer;$/;"	m	line:18	struct:uWS::WebSocket
+freeMessage	node_modules/uws/src/Socket.h	/^    void freeMessage(Queue::Message *message) {$/;"	f	line:300	struct:uS::Socket
+freeResponse	node_modules/uws/src/HTTPSocket.h	/^    void freeResponse(HttpSocket<true> *httpData) {$/;"	f	line:162	struct:uWS::HttpResponse
+freeSmallMemoryBlock	node_modules/uws/src/Networking.h	/^    void freeSmallMemoryBlock(char *memory, int index) {$/;"	f	line:232	struct:uS::NodeData
+from	node_modules/uws/src/Group.h	/^    static Group<isServer> *from(uS::Socket *s) {$/;"	f	line:137	struct:uWS::Group
+front	node_modules/uws/src/Socket.h	/^        Message *front() {return head;}$/;"	f	line:61	struct:uS::Socket::Queue
+generateOffer	node_modules/uws/src/Extensions.cpp	/^std::string ExtensionsNegotiator<isServer>::generateOffer() {$/;"	f	line:84	class:uWS::ExtensionsNegotiator
+getAddress	node_modules/uws/src/Socket.cpp	/^Socket::Address Socket::getAddress()$/;"	f	line:5	class:uS::Socket
+getAddress	node_modules/uws/src/addon.h	/^void getAddress(const FunctionCallbackInfo<Value> &args)$/;"	f	line:133
+getCb	node_modules/uws/src/Asio.h	/^    void (*getCb())(Poll *, int, int) {$/;"	f	line:123	struct:Poll
+getCb	node_modules/uws/src/Epoll.h	/^    void (*getCb())(Poll *, int, int) {$/;"	f	line:153	struct:Poll
+getCb	node_modules/uws/src/Libuv.h	/^    void (*getCb())(Poll *, int, int) {$/;"	f	line:131	struct:Poll
+getData	node_modules/uws/src/Asio.h	/^    void *getData() {$/;"	f	line:49	struct:Timer
+getData	node_modules/uws/src/Asio.h	/^    void *getData() {$/;"	f	line:97	struct:Async
+getData	node_modules/uws/src/Epoll.h	/^    void *getData() {$/;"	f	line:252	struct:Async
+getData	node_modules/uws/src/Epoll.h	/^    void *getData() {$/;"	f	line:96	struct:Timer
+getData	node_modules/uws/src/Libuv.h	/^    void *getData() {$/;"	f	line:52	struct:Async
+getData	node_modules/uws/src/Libuv.h	/^    void *getData() {$/;"	f	line:72	struct:Timer
+getData	node_modules/uws/src/addon.h	/^    char *getData() {return data;}$/;"	f	line:60	class:NativeString
+getDataV8	node_modules/uws/src/addon.h	/^inline Local<Value> getDataV8(uWS::WebSocket<isServer> *webSocket, Isolate *isolate) {$/;"	f	line:106
+getDefaultGroup	node_modules/uws/src/Hub.h	/^    Group<isServer> &getDefaultGroup() {$/;"	f	line:37	struct:uWS::Hub
+getEpollFd	node_modules/uws/src/Epoll.h	/^    int getEpollFd() {$/;"	f	line:61	struct:Loop
+getExpressApp	node_modules/uws/src/http.h	/^    static void getExpressApp(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:316	struct:HttpServer
+getFd	node_modules/uws/src/Asio.h	/^    boost::asio::ip::tcp::socket::native_type getFd() {$/;"	f	line:115	struct:Poll
+getFd	node_modules/uws/src/Epoll.h	/^    uv_os_sock_t getFd() {$/;"	f	line:205	struct:Poll
+getFd	node_modules/uws/src/Libuv.h	/^    uv_os_sock_t getFd() {$/;"	f	line:117	struct:Poll
+getHeader	node_modules/uws/src/HTTPSocket.h	/^    Header getHeader(const char *key) {$/;"	f	line:39	struct:uWS::HttpRequest
+getHeader	node_modules/uws/src/HTTPSocket.h	/^    Header getHeader(const char *key, size_t length) {$/;"	f	line:45	struct:uWS::HttpRequest
+getHeader	node_modules/uws/src/http.h	/^        static void getHeader(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:182	struct:HttpServer::Response
+getHeaders	node_modules/uws/src/HTTPSocket.cpp	/^char *getHeaders(char *buffer, char *end, Header *headers, size_t maxHeaders) {$/;"	f	line:13	namespace:uWS
+getHttpServer	node_modules/uws/src/http.h	/^    static Local<Function> getHttpServer(Isolate *isolate) {$/;"	f	line:339	struct:HttpServer
+getHttpSocket	node_modules/uws/src/HTTPSocket.h	/^    HttpSocket<true> *getHttpSocket() {$/;"	f	line:278	struct:uWS::HttpResponse
+getLength	node_modules/uws/src/addon.h	/^    size_t getLength() {return length;}$/;"	f	line:61	class:NativeString
+getLoop	node_modules/uws/src/Node.h	/^    Loop *getLoop() {$/;"	f	line:84	class:uS::Node
+getMemoryBlockIndex	node_modules/uws/src/Networking.h	/^    static int getMemoryBlockIndex(size_t length) {$/;"	f	line:218	struct:uS::NodeData
+getMethod	node_modules/uws/src/HTTPSocket.h	/^    HttpMethod getMethod() {$/;"	f	line:63	struct:uWS::HttpRequest
+getNativeContext	node_modules/uws/src/Networking.h	/^    SSL_CTX *getNativeContext() {$/;"	f	line:187	class:uS::TLS::Context
+getNegotiatedOptions	node_modules/uws/src/Extensions.cpp	/^int ExtensionsNegotiator<isServer>::getNegotiatedOptions() {$/;"	f	line:124	class:uWS::ExtensionsNegotiator
+getNodeData	node_modules/uws/src/Socket.h	/^    NodeData *getNodeData() {$/;"	f	line:422	struct:uS::Socket
+getOpCode	node_modules/uws/src/WebSocketProtocol.h	/^    static inline unsigned char getOpCode(char *frame) {return *((unsigned char *) frame) & 15;}$/;"	f	line:67	class:uWS::WebSocketProtocol
+getPoll	node_modules/uws/src/Socket.h	/^    int getPoll() {$/;"	f	line:76	struct:uS::Socket
+getRequestPrototype	node_modules/uws/src/http.h	/^    static void getRequestPrototype(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:335	struct:HttpServer
+getResponsePrototype	node_modules/uws/src/http.h	/^    static void getResponsePrototype(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:331	struct:HttpServer
+getSize	node_modules/uws/src/addon.h	/^void getSize(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:407
+getSmallMemoryBlock	node_modules/uws/src/Networking.h	/^    char *getSmallMemoryBlock(int index) {$/;"	f	line:222	struct:uS::NodeData
+getTcpHandle	node_modules/uws/src/addon.h	/^uv_handle_t *getTcpHandle(void *handleWrap) {$/;"	f	line:143
+getTemplateObject	node_modules/uws/src/http.h	/^        static Local<Object> getTemplateObject(Isolate *isolate) {$/;"	f	line:186	struct:HttpServer::Response
+getTemplateObject	node_modules/uws/src/http.h	/^        static Local<Object> getTemplateObject(Isolate *isolate) {$/;"	f	line:88	struct:HttpServer::Request
+getToken	node_modules/uws/src/Extensions.cpp	/^int ExtensionsParser::getToken(const char *&in, const char *stop) {$/;"	f	line:28	class:uWS::ExtensionsParser
+getUrl	node_modules/uws/src/HTTPSocket.h	/^    Header getUrl() {$/;"	f	line:56	struct:uWS::HttpRequest
+getUserData	node_modules/uws/src/Group.cpp	/^void *Group<isServer>::getUserData() {$/;"	f	line:12	class:uWS::Group
+getUserData	node_modules/uws/src/HTTPSocket.h	/^    void *getUserData() {$/;"	f	line:274	struct:uWS::HttpResponse
+getUserData	node_modules/uws/src/Socket.h	/^    void *getUserData() {$/;"	f	line:428	struct:uS::Socket
+getUserData	node_modules/uws/src/addon.h	/^void getUserData(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:111
+group	node_modules/uws/src/Hub.h	/^        Group<CLIENT> *group;$/;"	m	line:18	struct:uWS::Hub::ConnectionData
+handleFragment	node_modules/uws/src/WebSocket.cpp	/^bool WebSocket<isServer>::handleFragment(char *data, size_t length, unsigned int remainingBytes, int opCode, bool fin, WebSocketState<isServer> *webSocketState) {$/;"	f	line:296	class:uWS::WebSocket
+hasEmptyQueue	node_modules/uws/src/Socket.h	/^    bool hasEmptyQueue() {$/;"	f	line:279	struct:uS::Socket
+hasEnded	node_modules/uws/src/HTTPSocket.h	/^    bool hasEnded = false;$/;"	m	line:143	struct:uWS::HttpResponse
+hasHead	node_modules/uws/src/HTTPSocket.h	/^    bool hasHead = false;$/;"	m	line:144	struct:uWS::HttpResponse
+hasOutstandingPong	node_modules/uws/src/WebSocket.h	/^    unsigned char controlTipLength = 0, hasOutstandingPong = false;$/;"	m	line:24	namespace:uWS
+head	node_modules/uws/src/Socket.h	/^        Message *head = nullptr, *tail = nullptr;$/;"	m	line:47	struct:uS::Socket::Queue
+headers	node_modules/uws/src/HTTPSocket.h	/^    Header *headers;$/;"	m	line:38	struct:uWS::HttpRequest
+headers	node_modules/uws/src/http.h	/^        static void headers(Local<String> property, const PropertyCallbackInfo<Value> &args) {$/;"	f	line:23	struct:HttpServer::Request
+htobe64	node_modules/uws/src/Networking.h	21;"	d	line:21
+htobe64	node_modules/uws/src/Networking.h	33;"	d	line:33
+htobe64	node_modules/uws/src/Networking.h	37;"	d	line:37
+httpBuffer	node_modules/uws/src/HTTPSocket.h	/^    std::string httpBuffer;$/;"	m	line:115	struct:uWS::HttpSocket
+httpCancelledRequestCallback	node_modules/uws/src/addon.h	/^                         httpUpgradeHandler, httpCancelledRequestCallback;$/;"	m	line:73	struct:GroupData
+httpCancelledRequestHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpResponse *)> httpCancelledRequestHandler;$/;"	m	line:35	struct:uWS::Group
+httpConnectionHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpSocket<isServer> *)> httpConnectionHandler;$/;"	m	line:32	struct:uWS::Group
+httpDataHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpResponse *, char *, size_t, size_t)> httpDataHandler;$/;"	m	line:34	struct:uWS::Group
+httpDisconnectionHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpSocket<isServer> *)> httpDisconnectionHandler;$/;"	m	line:36	struct:uWS::Group
+httpPersistent	node_modules/uws/src/http.h	/^Persistent<Function> httpPersistent;$/;"	v	line:4
+httpRequestHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpResponse *, HttpRequest, char *, size_t, size_t)> httpRequestHandler;$/;"	m	line:33	struct:uWS::Group
+httpRequestHandler	node_modules/uws/src/addon.h	/^                         pongHandler, errorHandler, httpRequestHandler,$/;"	m	line:72	struct:GroupData
+httpSocket	node_modules/uws/src/HTTPSocket.h	/^    HttpSocket<true> *httpSocket;$/;"	m	line:138	struct:uWS::HttpResponse
+httpSocketHead	node_modules/uws/src/Group.h	/^    HttpSocket<isServer> *httpSocketHead = nullptr;$/;"	m	line:54	struct:uWS::Group
+httpTimer	node_modules/uws/src/Group.h	/^    Timer *timer = nullptr, *httpTimer = nullptr;$/;"	m	line:45	struct:uWS::Group
+httpUpgradeHandler	node_modules/uws/src/Group.h	/^    std::function<void(HttpSocket<isServer> *, HttpRequest)> httpUpgradeHandler;$/;"	m	line:37	struct:uWS::Group
+httpUpgradeHandler	node_modules/uws/src/addon.h	/^                         httpUpgradeHandler, httpCancelledRequestCallback;$/;"	m	line:73	struct:GroupData
+httpUser	node_modules/uws/src/HTTPSocket.h	/^    void *httpUser; \/\/ remove this later, setTimeout occupies user for now$/;"	m	line:110	struct:uWS::HttpSocket
+hub	node_modules/uws/src/Group.h	/^    Hub *hub;$/;"	m	line:43	struct:uWS::Group
+inflate	node_modules/uws/src/Hub.cpp	/^char *Hub::inflate(char *data, size_t &length, size_t maxPayload) {$/;"	f	line:7	class:uWS::Hub
+inflationBuffer	node_modules/uws/src/Hub.h	/^    char *inflationBuffer;$/;"	m	line:22	struct:uWS::Hub
+inflationStream	node_modules/uws/src/Hub.h	/^    z_stream inflationStream = {};$/;"	m	line:21	struct:uWS::Hub
+init	node_modules/uws/src/Networking.cpp	/^} init;$/;"	m	line:33	namespace:uS::TLS	typeref:struct:uS::TLS::Init	file:
+init	node_modules/uws/src/Networking.cpp	/^} init;$/;"	m	line:64	namespace:uS	typeref:struct:uS::Init	file:
+ioHandler	node_modules/uws/src/Socket.h	/^    static void ioHandler(Poll *p, int status, int events) {$/;"	f	line:217	struct:uS::Socket
+isClosed	node_modules/uws/src/Asio.h	/^    bool isClosed() {$/;"	f	line:111	struct:Poll
+isClosed	node_modules/uws/src/Epoll.h	/^    bool isClosed() {$/;"	f	line:201	struct:Poll
+isClosed	node_modules/uws/src/Libuv.h	/^    bool isClosed() {$/;"	f	line:113	struct:Poll
+isFin	node_modules/uws/src/WebSocketProtocol.h	/^    static inline bool isFin(char *frame) {return *((unsigned char *) frame) & 128;}$/;"	f	line:66	class:uWS::WebSocketProtocol
+isShuttingDown	node_modules/uws/src/Socket.h	/^    bool isShuttingDown() {$/;"	f	line:487	struct:uS::Socket
+isValidUtf8	node_modules/uws/src/WebSocketProtocol.h	/^    static bool isValidUtf8(unsigned char *s, size_t length)$/;"	f	line:213	class:uWS::WebSocketProtocol
+isolate	node_modules/uws/src/addon.h	/^    Isolate *isolate;$/;"	m	line:154	struct:SendCallbackData
+iterators	node_modules/uws/src/Group.h	/^    std::stack<Poll *> iterators;$/;"	m	line:47	struct:uWS::Group
+jsCallback	node_modules/uws/src/addon.h	/^    Persistent<Function> jsCallback;$/;"	m	line:153	struct:SendCallbackData
+key	node_modules/uws/src/HTTPSocket.h	/^    char *key, *value;$/;"	m	line:11	struct:uWS::Header
+keyLength	node_modules/uws/src/HTTPSocket.h	/^    unsigned int keyLength, valueLength;$/;"	m	line:12	struct:uWS::Header
+lastFin	node_modules/uws/src/WebSocketProtocol.h	/^        unsigned int lastFin : 1;$/;"	m	line:38	struct:uWS::WebSocketState::State
+lastInteger	node_modules/uws/src/Extensions.cpp	/^    int *lastInteger = nullptr;$/;"	m	line:15	class:uWS::ExtensionsParser	file:
+length	node_modules/uws/src/Socket.h	/^            size_t length;$/;"	m	line:41	struct:uS::Socket::Queue::Message
+length	node_modules/uws/src/WebSocket.h	/^        size_t length;$/;"	m	line:60	struct:uWS::PreparedMessage
+length	node_modules/uws/src/WebSocketProtocol.h	/^        size_t length;$/;"	m	line:253	struct:uWS::WebSocketProtocol::CloseFrame
+length	node_modules/uws/src/addon.h	/^    size_t length;$/;"	m	line:28	class:NativeString
+listen	node_modules/uws/src/Group.h	/^    void listen(ListenOptions listenOptions) {$/;"	f	line:98	struct:uWS::Group
+listen	node_modules/uws/src/Hub.cpp	/^bool Hub::listen(const char *host, int port, uS::TLS::Context sslContext, int options, Group<SERVER> *eh) {$/;"	f	line:67	class:uWS::Hub
+listen	node_modules/uws/src/Hub.cpp	/^bool Hub::listen(int port, uS::TLS::Context sslContext, int options, Group<SERVER> *eh) {$/;"	f	line:79	class:uWS::Hub
+listen	node_modules/uws/src/Node.h	/^    bool listen(const char *host, int port, uS::TLS::Context sslContext, int options, uS::NodeData *nodeData, void *user) {$/;"	f	line:126	class:uS::Node
+listen	node_modules/uws/src/addon.h	/^void listen(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:423
+listen	node_modules/uws/src/http.h	/^    static void listen(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:306	struct:HttpServer
+loop	node_modules/uws/src/Asio.h	/^    Loop *loop;$/;"	m	line:68	struct:Async
+loop	node_modules/uws/src/Epoll.h	/^    Loop *loop;$/;"	m	line:215	struct:Async
+loop	node_modules/uws/src/Epoll.h	/^    Loop *loop;$/;"	m	line:67	struct:Timer
+loop	node_modules/uws/src/Networking.h	/^    Loop *loop;$/;"	m	line:203	struct:uS::NodeData
+loop	node_modules/uws/src/Node.h	/^    Loop *loop;$/;"	m	line:75	class:uS::Node
+mask	node_modules/uws/src/WebSocketProtocol.h	/^    char mask[isServer ? 4 : 1];$/;"	m	line:55	struct:uWS::WebSocketState
+maxPayload	node_modules/uws/src/Group.h	/^    unsigned int maxPayload;$/;"	m	line:42	struct:uWS::Group
+mctx	node_modules/uws/src/Networking.h	/^    mtcp_context *mctx;$/;"	m	line:85	struct:uS::Context
+message	node_modules/uws/src/WebSocketProtocol.h	/^        char *message;$/;"	m	line:252	struct:uWS::WebSocketProtocol::CloseFrame
+messageHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *, char *message, size_t length, OpCode opCode)> messageHandler;$/;"	m	line:28	struct:uWS::Group
+messageHandler	node_modules/uws/src/addon.h	/^    Persistent<Function> connectionHandler, messageHandler,$/;"	m	line:70	struct:GroupData
+messageQueue	node_modules/uws/src/HTTPSocket.h	/^    HttpSocket<true>::Queue::Message *messageQueue = nullptr;$/;"	m	line:142	struct:uWS::HttpResponse
+messageQueue	node_modules/uws/src/Socket.h	/^    } messageQueue;$/;"	m	line:74	struct:uS::Socket	typeref:struct:uS::Socket::Queue
+method	node_modules/uws/src/http.h	/^        static void method(Local<String> property, const PropertyCallbackInfo<Value> &args) {$/;"	f	line:40	struct:HttpServer::Request
+missedDeadline	node_modules/uws/src/HTTPSocket.h	/^    bool missedDeadline = false;$/;"	m	line:117	struct:uWS::HttpSocket
+netContext	node_modules/uws/src/Networking.h	/^    uS::Context *netContext;$/;"	m	line:204	struct:uS::NodeData
+next	node_modules/uws/src/HTTPSocket.h	/^    HttpResponse *next = nullptr;$/;"	m	line:139	struct:uWS::HttpResponse
+next	node_modules/uws/src/Socket.h	/^    Poll *next = nullptr, *prev = nullptr;$/;"	m	line:426	struct:uS::Socket
+nextDelay	node_modules/uws/src/Epoll.h	/^    int nextDelay;$/;"	m	line:28	struct:Timepoint
+nextMessage	node_modules/uws/src/Socket.h	/^            Message *nextMessage = nullptr;$/;"	m	line:42	struct:uS::Socket::Queue::Message
+nodeData	node_modules/uws/src/Node.h	/^    NodeData *nodeData;$/;"	m	line:76	class:uS::Node
+nodeData	node_modules/uws/src/Socket.h	/^    NodeData *nodeData;$/;"	m	line:35	struct:uS::Socket
+noop	node_modules/uws/src/addon.h	/^Persistent<Function> noop;$/;"	v	line:13
+numPolls	node_modules/uws/src/Epoll.h	/^    int numPolls = 0;$/;"	m	line:33	struct:Loop
+obj	node_modules/uws/build/Makefile	/^obj := $(builddir)\/obj$/;"	m	line:34
+obj	node_modules/uws/build/action_after_build.target.mk	/^uws: obj := $(abs_obj)$/;"	m	line:9
+object	node_modules/uws/src/addon.h	/^    Local<Object> object;$/;"	m	line:430	struct:Namespace
+on	node_modules/uws/src/http.h	/^        static void on(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:11	struct:HttpServer::Request
+on	node_modules/uws/src/http.h	/^        static void on(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:110	struct:HttpServer::Response
+on	node_modules/uws/src/http.h	/^    static void on(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:301	struct:HttpServer
+onCancelledHttpRequest	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onCancelledHttpRequest(std::function<void (HttpResponse *)> handler) {$/;"	f	line:217	class:uWS::Group
+onClientConnection	node_modules/uws/src/Hub.cpp	/^void Hub::onClientConnection(uS::Socket *s, bool error) {$/;"	f	line:54	class:uWS::Hub
+onConnection	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onConnection(std::function<void (WebSocket<isServer> *, HttpRequest)> handler) {$/;"	f	line:162	class:uWS::Group
+onConnection	node_modules/uws/src/addon.h	/^void onConnection(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:245
+onData	node_modules/uws/src/HTTPSocket.cpp	/^uS::Socket *HttpSocket<isServer>::onData(uS::Socket *s, char *data, size_t length) {$/;"	f	line:56	class:uWS::HttpSocket
+onData	node_modules/uws/src/WebSocket.cpp	/^uS::Socket *WebSocket<isServer>::onData(uS::Socket *s, char *data, size_t length) {$/;"	f	line:174	class:uWS::WebSocket
+onDisconnection	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onDisconnection(std::function<void (WebSocket<isServer> *, int, char *, size_t)> handler) {$/;"	f	line:177	class:uWS::Group
+onDisconnection	node_modules/uws/src/addon.h	/^void onDisconnection(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:309
+onEnd	node_modules/uws/src/HTTPSocket.cpp	/^void HttpSocket<isServer>::onEnd(uS::Socket *s) {$/;"	f	line:266	class:uWS::HttpSocket
+onEnd	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::onEnd(uS::Socket *s) {$/;"	f	line:272	class:uWS::WebSocket
+onError	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onError(std::function<void (typename Group::errorType)> handler) {$/;"	f	line:192	class:uWS::Group
+onError	node_modules/uws/src/addon.h	/^void onError(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:328
+onHttpConnection	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onHttpConnection(std::function<void (HttpSocket<isServer> *)> handler) {$/;"	f	line:197	class:uWS::Group
+onHttpData	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onHttpData(std::function<void(HttpResponse *, char *, size_t, size_t)> handler) {$/;"	f	line:207	class:uWS::Group
+onHttpDisconnection	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onHttpDisconnection(std::function<void (HttpSocket<isServer> *)> handler) {$/;"	f	line:212	class:uWS::Group
+onHttpRequest	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onHttpRequest(std::function<void (HttpResponse *, HttpRequest, char *, size_t, size_t)> handler) {$/;"	f	line:202	class:uWS::Group
+onHttpUpgrade	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onHttpUpgrade(std::function<void(HttpSocket<isServer> *, HttpRequest)> handler) {$/;"	f	line:222	class:uWS::Group
+onMessage	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onMessage(std::function<void (WebSocket<isServer> *, char *, size_t, OpCode)> handler) {$/;"	f	line:172	class:uWS::Group
+onMessage	node_modules/uws/src/addon.h	/^void onMessage(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:261
+onPing	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onPing(std::function<void (WebSocket<isServer> *, char *, size_t)> handler) {$/;"	f	line:182	class:uWS::Group
+onPing	node_modules/uws/src/addon.h	/^void onPing(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:277
+onPong	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onPong(std::function<void (WebSocket<isServer> *, char *, size_t)> handler) {$/;"	f	line:187	class:uWS::Group
+onPong	node_modules/uws/src/addon.h	/^void onPong(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:293
+onServerAccept	node_modules/uws/src/Hub.cpp	/^void Hub::onServerAccept(uS::Socket *s) {$/;"	f	line:43	class:uWS::Hub
+onTransfer	node_modules/uws/src/Group.cpp	/^void Group<isServer>::onTransfer(std::function<void (WebSocket<isServer> *)> handler) {$/;"	f	line:167	class:uWS::Group
+opCode	node_modules/uws/src/WebSocketProtocol.h	/^        OpCode opCode[2];$/;"	m	line:42	struct:uWS::WebSocketState::State
+opStack	node_modules/uws/src/WebSocketProtocol.h	/^        int opStack : 2; \/\/ -1, 0, 1$/;"	m	line:37	struct:uWS::WebSocketState::State
+operator =	node_modules/uws/src/Networking.cpp	/^Context &Context::operator=(const Context &other) {$/;"	f	line:15	class:uS::TLS::Context
+operator bool	node_modules/uws/src/HTTPSocket.h	/^    operator bool() {$/;"	f	line:14	struct:uWS::Header
+operator bool	node_modules/uws/src/Networking.h	/^    operator bool() {$/;"	f	line:183	class:uS::TLS::Context
+options	node_modules/uws/src/Extensions.h	/^    int options;$/;"	m	line:19	class:uWS::ExtensionsNegotiator
+other	node_modules/uws/src/Libuv.h	/^    Poll(const Poll &other) = delete;$/;"	m	line:107	struct:Poll
+outstandingResponsesHead	node_modules/uws/src/HTTPSocket.h	/^    HttpResponse *outstandingResponsesHead = nullptr;$/;"	m	line:111	struct:uWS::HttpSocket
+outstandingResponsesTail	node_modules/uws/src/HTTPSocket.h	/^    HttpResponse *outstandingResponsesTail = nullptr;$/;"	m	line:112	struct:uWS::HttpSocket
+parseClosePayload	node_modules/uws/src/WebSocketProtocol.h	/^    static inline CloseFrame parseClosePayload(char *src, size_t length) {$/;"	f	line:256	class:uWS::WebSocketProtocol
+password	node_modules/uws/src/Networking.h	/^    std::shared_ptr<std::string> password;$/;"	m	line:162	class:uS::TLS::Context
+passwordCallback	node_modules/uws/src/Networking.h	/^    static int passwordCallback(char *buf, int size, int rwflag, void *u)$/;"	f	line:164	class:uS::TLS::Context
+path	node_modules/uws/src/Hub.h	/^        std::string path;$/;"	m	line:16	struct:uWS::Hub::ConnectionData
+payloadLength	node_modules/uws/src/WebSocketProtocol.h	/^    static inline unsigned char payloadLength(char *frame) {return ((unsigned char *) frame)[1] & 127;}$/;"	f	line:68	class:uWS::WebSocketProtocol
+perMessageDeflate	node_modules/uws/src/Extensions.cpp	/^    bool perMessageDeflate = false;$/;"	m	line:18	class:uWS::ExtensionsParser	file:
+ping	node_modules/uws/src/WebSocket.h	/^    void ping(const char *message) {send(message, OpCode::PING);}$/;"	f	line:73	namespace:uWS
+pingHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *, char *, size_t)> pingHandler;$/;"	m	line:30	struct:uWS::Group
+pingHandler	node_modules/uws/src/addon.h	/^                         disconnectionHandler, pingHandler,$/;"	m	line:71	struct:GroupData
+poll	node_modules/uws/src/Socket.h	/^        int poll : 4;$/;"	m	line:29	struct:uS::Socket::__anon1
+pollCb	node_modules/uws/src/Socket.h	/^    void (*pollCb)(Poll *, int, int);$/;"	m	line:14	struct:uS::TransferData
+pollEvents	node_modules/uws/src/Socket.h	/^    int pollEvents;$/;"	m	line:15	struct:uS::TransferData
+pongHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *, char *, size_t)> pongHandler;$/;"	m	line:31	struct:uWS::Group
+pongHandler	node_modules/uws/src/addon.h	/^                         pongHandler, errorHandler, httpRequestHandler,$/;"	m	line:72	struct:GroupData
+pop	node_modules/uws/src/Socket.h	/^        void pop()$/;"	f	line:48	struct:uS::Socket::Queue
+port	node_modules/uws/src/Socket.h	/^        unsigned int port;$/;"	m	line:437	struct:uS::Socket::Address
+postCb	node_modules/uws/src/Epoll.h	/^    void (*postCb)(void *) = nullptr;$/;"	m	line:42	struct:Loop
+postCbData	node_modules/uws/src/Epoll.h	/^    void *preCbData, *postCbData;$/;"	m	line:43	struct:Loop
+preAlloc	node_modules/uws/src/Networking.h	/^    char **preAlloc;$/;"	m	line:207	struct:uS::NodeData
+preAllocMaxSize	node_modules/uws/src/Networking.h	/^    static const int preAllocMaxSize = 1024;$/;"	m	line:206	struct:uS::NodeData
+preAllocatedResponse	node_modules/uws/src/HTTPSocket.h	/^    HttpResponse *preAllocatedResponse = nullptr;$/;"	m	line:113	struct:uWS::HttpSocket
+preCb	node_modules/uws/src/Epoll.h	/^    void (*preCb)(void *) = nullptr;$/;"	m	line:41	struct:Loop
+preCbData	node_modules/uws/src/Epoll.h	/^    void *preCbData, *postCbData;$/;"	m	line:43	struct:Loop
+prepareMessage	node_modules/uws/src/WebSocket.cpp	/^typename WebSocket<isServer>::PreparedMessage *WebSocket<isServer>::prepareMessage(char *data, size_t length, OpCode opCode, bool compressed, void(*callback)(WebSocket<isServer> *webSocket, void *data, bool cancelled, void *reserved)) {$/;"	f	line:58	class:uWS::WebSocket
+prepareMessage	node_modules/uws/src/addon.h	/^void prepareMessage(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:378
+prepareMessageBatch	node_modules/uws/src/WebSocket.cpp	/^typename WebSocket<isServer>::PreparedMessage *WebSocket<isServer>::prepareMessageBatch(std::vector<std::string> &messages, std::vector<int> &excludedMessages, OpCode opCode, bool compressed, void (*callback)(WebSocket<isServer> *, void *, bool, void *))$/;"	f	line:77	class:uWS::WebSocket
+prereq_changed	node_modules/uws/build/Makefile	/^prereq_changed = $(filter-out FORCE_DO_CMD,$(filter-out $|,$?))$/;"	m	line:205
+prev	node_modules/uws/src/Socket.h	/^    Poll *next = nullptr, *prev = nullptr;$/;"	m	line:426	struct:uS::Socket
+pthread_self	node_modules/uws/src/Networking.h	40;"	d	line:40
+pthread_t	node_modules/uws/src/Networking.h	39;"	d	line:39
+push	node_modules/uws/src/Socket.h	/^        void push(Message *message)$/;"	f	line:63	struct:uS::Socket::Queue
+quiet	node_modules/uws/build/Makefile	/^  quiet=$/;"	m	line:18
+quiet	node_modules/uws/build/Makefile	/^  quiet=quiet_$/;"	m	line:20
+quiet_cmd_alink	node_modules/uws/build/Makefile	/^quiet_cmd_alink = AR($(TOOLSET)) $@$/;"	m	line:136
+quiet_cmd_alink_thin	node_modules/uws/build/Makefile	/^quiet_cmd_alink_thin = AR($(TOOLSET)) $@$/;"	m	line:139
+quiet_cmd_binding_gyp_action_after_build_target_move_lib	node_modules/uws/build/action_after_build.target.mk	/^quiet_cmd_binding_gyp_action_after_build_target_move_lib = ACTION binding_gyp_action_after_build_target_move_lib $@$/;"	m	line:6
+quiet_cmd_cc	node_modules/uws/build/Makefile	/^quiet_cmd_cc = CC($(TOOLSET)) $@$/;"	m	line:123
+quiet_cmd_copy	node_modules/uws/build/Makefile	/^quiet_cmd_copy = COPY $@$/;"	m	line:132
+quiet_cmd_cxx	node_modules/uws/build/Makefile	/^quiet_cmd_cxx = CXX($(TOOLSET)) $@$/;"	m	line:126
+quiet_cmd_link	node_modules/uws/build/Makefile	/^quiet_cmd_link = LINK($(TOOLSET)) $@$/;"	m	line:145
+quiet_cmd_regen_makefile	node_modules/uws/build/Makefile	/^quiet_cmd_regen_makefile = ACTION Regenerating $@$/;"	m	line:315
+quiet_cmd_solink	node_modules/uws/build/Makefile	/^quiet_cmd_solink = SOLINK($(TOOLSET)) $@$/;"	m	line:164
+quiet_cmd_solink_module	node_modules/uws/build/Makefile	/^quiet_cmd_solink_module = SOLINK_MODULE($(TOOLSET)) $@$/;"	m	line:167
+quiet_cmd_touch	node_modules/uws/build/Makefile	/^quiet_cmd_touch = TOUCH $@$/;"	m	line:129
+reInit	node_modules/uws/src/Asio.h	/^    void reInit(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:127	struct:Poll
+reInit	node_modules/uws/src/Epoll.h	/^    void reInit(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:157	struct:Poll
+reInit	node_modules/uws/src/Libuv.h	/^    void reInit(Loop *loop, uv_os_sock_t fd) {$/;"	f	line:135	struct:Poll
+readOffer	node_modules/uws/src/Extensions.cpp	/^void ExtensionsNegotiator<isServer>::readOffer(std::string offer) {$/;"	f	line:102	class:uWS::ExtensionsNegotiator
+readyEvents	node_modules/uws/src/Epoll.h	/^    epoll_event readyEvents[1024];$/;"	m	line:36	struct:Loop
+recvBuffer	node_modules/uws/src/Networking.h	/^    char *recvBuffer;$/;"	m	line:201	struct:uS::NodeData
+recvBufferMemoryBlock	node_modules/uws/src/Networking.h	/^    char *recvBufferMemoryBlock;$/;"	m	line:200	struct:uS::NodeData
+recvLength	node_modules/uws/src/Networking.h	/^    int recvLength;$/;"	m	line:202	struct:uS::NodeData
+references	node_modules/uws/src/WebSocket.h	/^        int references;$/;"	m	line:61	struct:uWS::PreparedMessage
+refusePayloadLength	node_modules/uws/src/WebSocket.h	/^    static bool refusePayloadLength(uint64_t length, WebSocketState<isServer> *webSocketState) {$/;"	f	line:34	namespace:uWS
+registerCheck	node_modules/uws/src/addon.h	/^void registerCheck(Isolate *isolate) {$/;"	f	line:15
+remainingBytes	node_modules/uws/src/WebSocketProtocol.h	/^    unsigned int remainingBytes = 0;$/;"	m	line:54	struct:uWS::WebSocketState
+removeHttpSocket	node_modules/uws/src/Group.cpp	/^void Group<isServer>::removeHttpSocket(HttpSocket<isServer> *httpSocket) {$/;"	f	line:69	class:uWS::Group
+removeWebSocket	node_modules/uws/src/Group.cpp	/^void Group<isServer>::removeWebSocket(WebSocket<isServer> *webSocket) {$/;"	f	line:102	class:uWS::Group
+replace_spaces	node_modules/uws/build/Makefile	/^replace_spaces = $(subst $(space),?,$1)$/;"	m	line:72
+reqTemplate	node_modules/uws/src/http.h	/^Persistent<Object> reqTemplate, resTemplate;$/;"	v	line:3
+resTemplate	node_modules/uws/src/http.h	/^Persistent<Object> reqTemplate, resTemplate;$/;"	v	line:3
+reserved	node_modules/uws/src/Socket.h	/^            void *callbackData = nullptr, *reserved = nullptr;$/;"	m	line:44	struct:uS::Socket::Queue::Message
+resume	node_modules/uws/src/http.h	/^        static void resume(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:79	struct:HttpServer::Request
+rotateMask	node_modules/uws/src/WebSocketProtocol.h	/^    static inline void rotateMask(unsigned int offset, char *mask) {$/;"	f	line:86	class:uWS::WebSocketProtocol
+rsv1	node_modules/uws/src/WebSocketProtocol.h	/^    static inline bool rsv1(char *frame) {return *((unsigned char *) frame) & 64;}$/;"	f	line:70	class:uWS::WebSocketProtocol
+rsv23	node_modules/uws/src/WebSocketProtocol.h	/^    static inline bool rsv23(char *frame) {return *((unsigned char *) frame) & 48;}$/;"	f	line:69	class:uWS::WebSocketProtocol
+run	node_modules/uws/src/Asio.h	/^    void run() {$/;"	f	line:20	struct:Loop
+run	node_modules/uws/src/Epoll.cpp	/^void Loop::run() {$/;"	f	line:10	class:Loop
+run	node_modules/uws/src/Libuv.h	/^    void run() {$/;"	f	line:22	struct:Loop
+run	node_modules/uws/src/Node.cpp	/^void Node::run() {$/;"	f	line:62	class:uS::Node
+send	node_modules/uws/src/Asio.h	/^    void send() {$/;"	f	line:81	struct:Async
+send	node_modules/uws/src/Epoll.h	/^    void send() {$/;"	f	line:233	struct:Async
+send	node_modules/uws/src/Libuv.h	/^    void send() {$/;"	f	line:38	struct:Async
+send	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::send(const char *message, size_t length, OpCode opCode, void(*callback)(WebSocket<isServer> *webSocket, void *data, bool cancelled, void *reserved), void *callbackData) {$/;"	f	line:17	class:uWS::WebSocket
+send	node_modules/uws/src/WebSocket.h	/^    void send(const char *message, OpCode opCode = OpCode::TEXT) {send(message, strlen(message), opCode);}$/;"	f	line:74	namespace:uWS
+send	node_modules/uws/src/addon.h	/^void send(const FunctionCallbackInfo<Value> &args)$/;"	f	line:170
+sendCallback	node_modules/uws/src/addon.h	/^void sendCallback(uWS::WebSocket<isServer> *webSocket, void *data, bool cancelled, void *reserved)$/;"	f	line:158
+sendPrepared	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::sendPrepared(typename WebSocket<isServer>::PreparedMessage *preparedMessage, void *callbackData) {$/;"	f	line:111	class:uWS::WebSocket
+sendPrepared	node_modules/uws/src/addon.h	/^void sendPrepared(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:385
+sendTransformed	node_modules/uws/src/Socket.h	/^    void sendTransformed(const char *message, size_t length, void(*callback)(void *socket, void *data, bool cancelled, void *reserved), void *callbackData, D transformData) {$/;"	f	line:353	struct:uS::Socket
+serverMaxWindowBits	node_modules/uws/src/Extensions.cpp	/^    int serverMaxWindowBits = 0;$/;"	m	line:21	class:uWS::ExtensionsParser	file:
+serverNoContextTakeover	node_modules/uws/src/Extensions.cpp	/^    bool serverNoContextTakeover = false;$/;"	m	line:19	class:uWS::ExtensionsParser	file:
+setCb	node_modules/uws/src/Asio.h	/^    void setCb(void (*cb)(Poll *p, int status, int events)) {$/;"	f	line:119	struct:Poll
+setCb	node_modules/uws/src/Epoll.h	/^    void setCb(void (*cb)(Poll *p, int status, int events)) {$/;"	f	line:138	struct:Poll
+setCb	node_modules/uws/src/Libuv.h	/^    void setCb(void (*cb)(Poll *p, int status, int events)) {$/;"	f	line:127	struct:Poll
+setCompressed	node_modules/uws/src/WebSocket.h	/^    static bool setCompressed(WebSocketState<isServer> *webSocketState) {$/;"	f	line:39	namespace:uWS
+setData	node_modules/uws/src/Asio.h	/^    void setData(void *data) {$/;"	f	line:45	struct:Timer
+setData	node_modules/uws/src/Asio.h	/^    void setData(void *data) {$/;"	f	line:93	struct:Async
+setData	node_modules/uws/src/Epoll.h	/^    void setData(void *data) {$/;"	f	line:248	struct:Async
+setData	node_modules/uws/src/Epoll.h	/^    void setData(void *data) {$/;"	f	line:92	struct:Timer
+setData	node_modules/uws/src/Libuv.h	/^    void setData(void *data) {$/;"	f	line:48	struct:Async
+setData	node_modules/uws/src/Libuv.h	/^    void setData(void *data) {$/;"	f	line:68	struct:Timer
+setHeader	node_modules/uws/src/http.h	/^        static void setHeader(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:178	struct:HttpServer::Response
+setNoDelay	node_modules/uws/src/Socket.h	/^    void setNoDelay(int enable) {$/;"	f	line:444	struct:uS::Socket
+setNoop	node_modules/uws/src/addon.h	/^void setNoop(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:419
+setPoll	node_modules/uws/src/Socket.h	/^    int setPoll(int poll) {$/;"	f	line:80	struct:uS::Socket
+setShuttingDown	node_modules/uws/src/Socket.h	/^    void setShuttingDown(bool shuttingDown) {$/;"	f	line:85	struct:uS::Socket
+setState	node_modules/uws/src/Socket.h	/^    void setState() {$/;"	f	line:271	struct:uS::Socket
+setUserData	node_modules/uws/src/Group.cpp	/^void Group<isServer>::setUserData(void *user) {$/;"	f	line:7	class:uWS::Group
+setUserData	node_modules/uws/src/HTTPSocket.h	/^    void setUserData(void *userData) {$/;"	f	line:270	struct:uWS::HttpResponse
+setUserData	node_modules/uws/src/Socket.h	/^    void setUserData(void *user) {$/;"	f	line:432	struct:uS::Socket
+setUserData	node_modules/uws/src/addon.h	/^void setUserData(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:123
+setsockopt	node_modules/uws/src/Networking.h	/^inline int setsockopt(SOCKET fd, int level, int optname, const void *optval, socklen_t optlen) {$/;"	f	line:45
+shutdown	node_modules/uws/src/Socket.h	/^    void shutdown() {$/;"	f	line:462	struct:uS::Socket
+shuttingDown	node_modules/uws/src/Socket.h	/^        int shuttingDown : 4;$/;"	m	line:30	struct:uS::Socket::__anon1
+size	node_modules/uws/src/addon.h	/^    int size = 0;$/;"	m	line:74	struct:GroupData
+socket	node_modules/uws/src/Asio.h	/^    boost::asio::posix::stream_descriptor *socket;$/;"	m	line:103	struct:Poll
+socket	node_modules/uws/src/http.h	/^        static void socket(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:83	struct:HttpServer::Request
+space	node_modules/uws/build/Makefile	/^space := $(empty) $(empty)$/;"	m	line:69
+spill	node_modules/uws/src/WebSocketProtocol.h	/^        unsigned char spill[LONG_MESSAGE_HEADER - 1];$/;"	m	line:41	struct:uWS::WebSocketState::State
+spillLength	node_modules/uws/src/WebSocketProtocol.h	/^        unsigned int spillLength : 4;$/;"	m	line:36	struct:uWS::WebSocketState::State
+srcdir	node_modules/uws/build/Makefile	/^srcdir := ..$/;"	m	line:10
+ssl	node_modules/uws/src/Socket.h	/^    SSL *ssl;$/;"	m	line:11	struct:uS::TransferData
+ssl	node_modules/uws/src/Socket.h	/^    SSL *ssl;$/;"	m	line:33	struct:uS::Socket
+ssl	node_modules/uws/src/addon.h	/^    SSL *ssl;$/;"	m	line:197	struct:Ticket
+sslContext	node_modules/uws/src/Socket.h	/^    uS::TLS::Context sslContext;$/;"	m	line:502	struct:uS::ListenSocket
+sslIoHandler	node_modules/uws/src/Socket.h	/^    static void sslIoHandler(Poll *p, int status, int events) {$/;"	f	line:145	struct:uS::Socket
+start	node_modules/uws/src/Asio.h	/^    void start(Loop *, Poll *self, int events) {$/;"	f	line:133	struct:Poll
+start	node_modules/uws/src/Asio.h	/^    void start(void (*cb)(Async *)) {$/;"	f	line:77	struct:Async
+start	node_modules/uws/src/Asio.h	/^    void start(void (*cb)(Timer *), int first, int repeat) {$/;"	f	line:33	struct:Timer
+start	node_modules/uws/src/Epoll.h	/^    void start(Loop *loop, Poll *self, int events) {$/;"	f	line:162	struct:Poll
+start	node_modules/uws/src/Epoll.h	/^    void start(void (*cb)(Async *)) {$/;"	f	line:222	struct:Async
+start	node_modules/uws/src/Epoll.h	/^    void start(void (*cb)(Timer *), int timeout, int repeat) {$/;"	f	line:74	struct:Timer
+start	node_modules/uws/src/Libuv.h	/^    void start(Loop *, Poll *self, int events) {$/;"	f	line:141	struct:Poll
+start	node_modules/uws/src/Libuv.h	/^    void start(void (*cb)(Async *)) {$/;"	f	line:34	struct:Async
+start	node_modules/uws/src/Libuv.h	/^    void start(void (*cb)(Timer *), int first, int repeat) {$/;"	f	line:64	struct:Timer
+startAutoPing	node_modules/uws/src/Group.cpp	/^void Group<isServer>::startAutoPing(int intervalMs, std::string userMessage) {$/;"	f	line:36	class:uWS::Group
+startAutoPing	node_modules/uws/src/addon.h	/^void startAutoPing(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:413
+startTimeout	node_modules/uws/src/Socket.h	/^    void startTimeout(int timeoutMs = 15000) {$/;"	f	line:123	struct:uS::Socket
+state	node_modules/uws/src/Epoll.h	/^    } state = {-1, 0};$/;"	m	line:129	struct:Poll	typeref:struct:Poll::__anon4
+state	node_modules/uws/src/Socket.h	/^    } state = {0, false};$/;"	m	line:31	struct:uS::Socket	typeref:struct:uS::Socket::__anon1
+state	node_modules/uws/src/WebSocketProtocol.h	/^    } state;$/;"	m	line:51	struct:uWS::WebSocketState	typeref:struct:uWS::WebSocketState::State
+stop	node_modules/uws/src/Asio.h	/^    void stop() {$/;"	f	line:56	struct:Timer
+stop	node_modules/uws/src/Asio.h	/^    void stop(Loop *) {$/;"	f	line:167	struct:Poll
+stop	node_modules/uws/src/Epoll.h	/^    void stop() {$/;"	f	line:101	struct:Timer
+stop	node_modules/uws/src/Epoll.h	/^    void stop(Loop *loop) {$/;"	f	line:176	struct:Poll
+stop	node_modules/uws/src/Libuv.h	/^    void stop() {$/;"	f	line:76	struct:Timer
+stop	node_modules/uws/src/Libuv.h	/^    void stop(Loop *loop) {$/;"	f	line:153	struct:Poll
+stopListening	node_modules/uws/src/Group.cpp	/^void Group<isServer>::stopListening() {$/;"	f	line:138	class:uWS::Group
+tail	node_modules/uws/src/Socket.h	/^        Message *head = nullptr, *tail = nullptr;$/;"	m	line:47	struct:uS::Socket::Queue
+terminate	node_modules/uws/src/Group.cpp	/^void Group<isServer>::terminate() {$/;"	f	line:241	class:uWS::Group
+terminate	node_modules/uws/src/HTTPSocket.h	/^    void terminate() {$/;"	f	line:121	struct:uWS::HttpSocket
+terminate	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::terminate() {$/;"	f	line:196	class:uWS::WebSocket
+terminateGroup	node_modules/uws/src/addon.h	/^void terminateGroup(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:365
+terminateSocket	node_modules/uws/src/addon.h	/^void terminateSocket(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:353
+threadSafeChange	node_modules/uws/src/Asio.h	/^    bool threadSafeChange(Loop *loop, Poll *self, int events) {$/;"	f	line:163	struct:Poll
+threadSafeChange	node_modules/uws/src/Epoll.h	/^    bool threadSafeChange(Loop *loop, Poll *self, int events) {$/;"	f	line:190	struct:Poll
+threadSafeChange	node_modules/uws/src/Libuv.h	/^    bool threadSafeChange(Loop *, Poll *self, int events) {$/;"	f	line:161	struct:Poll
+tid	node_modules/uws/src/Networking.h	/^    pthread_t tid;$/;"	m	line:211	struct:uS::NodeData
+timepoint	node_modules/uws/src/Epoll.h	/^    std::chrono::system_clock::time_point timepoint;$/;"	m	line:27	struct:Timepoint
+timepoint	node_modules/uws/src/Epoll.h	/^    std::chrono::system_clock::time_point timepoint;$/;"	m	line:37	struct:Loop
+timer	node_modules/uws/src/Epoll.h	/^    Timer *timer;$/;"	m	line:26	struct:Timepoint
+timer	node_modules/uws/src/Group.h	/^    Timer *timer = nullptr, *httpTimer = nullptr;$/;"	m	line:45	struct:uWS::Group
+timer	node_modules/uws/src/Socket.h	/^    Timer *timer = nullptr;$/;"	m	line:501	struct:uS::ListenSocket
+timerCallback	node_modules/uws/src/Group.cpp	/^void Group<isServer>::timerCallback(Timer *timer) {$/;"	f	line:17	class:uWS::Group
+timers	node_modules/uws/src/Epoll.h	/^    std::vector<Timepoint> timers;$/;"	m	line:38	struct:Loop
+toString	node_modules/uws/src/HTTPSocket.h	/^    std::string toString() {$/;"	f	line:19	struct:uWS::Header
+transfer	node_modules/uws/src/Socket.h	/^    void transfer(NodeData *nodeData, void (*cb)(Poll *)) {$/;"	f	line:89	struct:uS::Socket
+transfer	node_modules/uws/src/WebSocket.cpp	/^void WebSocket<isServer>::transfer(Group<isServer> *group) {$/;"	f	line:222	class:uWS::WebSocket
+transfer	node_modules/uws/src/addon.h	/^void transfer(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:218
+transferCb	node_modules/uws/src/Socket.h	/^    void (*transferCb)(Poll *);$/;"	m	line:22	struct:uS::TransferData
+transferHandler	node_modules/uws/src/Group.h	/^    std::function<void(WebSocket<isServer> *)> transferHandler;$/;"	m	line:27	struct:uWS::Group
+transferQueue	node_modules/uws/src/Networking.h	/^    std::vector<Poll *> transferQueue;$/;"	m	line:214	struct:uS::NodeData
+uS	node_modules/uws/src/Networking.cpp	/^namespace uS {$/;"	n	line:3	file:
+uS	node_modules/uws/src/Networking.h	/^namespace uS {$/;"	n	line:78
+uS	node_modules/uws/src/Node.cpp	/^namespace uS {$/;"	n	line:3	file:
+uS	node_modules/uws/src/Node.h	/^namespace uS {$/;"	n	line:8
+uS	node_modules/uws/src/Socket.cpp	/^namespace uS {$/;"	n	line:3	file:
+uS	node_modules/uws/src/Socket.h	/^namespace uS {$/;"	n	line:6
+uWS	node_modules/uws/src/Extensions.cpp	/^namespace uWS {$/;"	n	line:3	file:
+uWS	node_modules/uws/src/Extensions.h	/^namespace uWS {$/;"	n	line:6
+uWS	node_modules/uws/src/Group.cpp	/^namespace uWS {$/;"	n	line:4	file:
+uWS	node_modules/uws/src/Group.h	/^namespace uWS {$/;"	n	line:10
+uWS	node_modules/uws/src/HTTPSocket.cpp	/^namespace uWS {$/;"	n	line:10	file:
+uWS	node_modules/uws/src/HTTPSocket.h	/^namespace uWS {$/;"	n	line:8
+uWS	node_modules/uws/src/Hub.cpp	/^namespace uWS {$/;"	n	line:5	file:
+uWS	node_modules/uws/src/Hub.h	/^namespace uWS {$/;"	n	line:11
+uWS	node_modules/uws/src/WebSocket.cpp	/^namespace uWS {$/;"	n	line:5	file:
+uWS	node_modules/uws/src/WebSocket.h	/^namespace uWS {$/;"	n	line:7
+uWS	node_modules/uws/src/WebSocketProtocol.h	/^namespace uWS {$/;"	n	line:10
+unmaskImprecise	node_modules/uws/src/WebSocketProtocol.h	/^    static inline void unmaskImprecise(char *dst, char *src, char *mask, unsigned int length) {$/;"	f	line:72	class:uWS::WebSocketProtocol
+unmaskImpreciseCopyMask	node_modules/uws/src/WebSocketProtocol.h	/^    static inline void unmaskImpreciseCopyMask(char *dst, char *src, char *maskPtr, unsigned int length) {$/;"	f	line:81	class:uWS::WebSocketProtocol
+unmaskInplace	node_modules/uws/src/WebSocketProtocol.h	/^    static inline void unmaskInplace(char *data, char *stop, char *mask) {$/;"	f	line:94	class:uWS::WebSocketProtocol
+unpipe	node_modules/uws/src/http.h	/^        static void unpipe(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:75	struct:HttpServer::Request
+unreplace_spaces	node_modules/uws/build/Makefile	/^unreplace_spaces = $(subst ?,$(space),$1)$/;"	m	line:73
+unwrapSocket	node_modules/uws/src/addon.h	/^inline uWS::WebSocket<isServer> *unwrapSocket(Local<External> external) {$/;"	f	line:97
+upgrade	node_modules/uws/src/HTTPSocket.cpp	/^void HttpSocket<isServer>::upgrade(const char *secKey, const char *extensions, size_t extensionsLength,$/;"	f	line:203	class:uWS::HttpSocket
+upgrade	node_modules/uws/src/Hub.cpp	/^void Hub::upgrade(uv_os_sock_t fd, const char *secKey, SSL *ssl, const char *extensions, size_t extensionsLength, const char *subprotocol, size_t subprotocolLength, Group<SERVER> *serverGroup) {$/;"	f	line:154	class:uWS::Hub
+upgrade	node_modules/uws/src/addon.h	/^void upgrade(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:200
+url	node_modules/uws/src/http.h	/^        static void url(Local<String> property, const PropertyCallbackInfo<Value> &args) {$/;"	f	line:36	struct:HttpServer::Request
+user	node_modules/uws/src/Hub.h	/^        void *user;$/;"	m	line:17	struct:uWS::Hub::ConnectionData
+user	node_modules/uws/src/Networking.h	/^    void *user = nullptr;$/;"	m	line:205	struct:uS::NodeData
+user	node_modules/uws/src/Socket.h	/^    void *user = nullptr;$/;"	m	line:34	struct:uS::Socket
+userData	node_modules/uws/src/Group.h	/^    void *userData = nullptr;$/;"	m	line:50	struct:uWS::Group
+userData	node_modules/uws/src/HTTPSocket.h	/^    void *userData = nullptr;$/;"	m	line:140	struct:uWS::HttpResponse
+userData	node_modules/uws/src/Socket.h	/^    void *userData;$/;"	m	line:18	struct:uS::TransferData
+userPingMessage	node_modules/uws/src/Group.h	/^    std::string userPingMessage;$/;"	m	line:46	struct:uWS::Group
+utf8Value	node_modules/uws/src/addon.h	/^    String::Utf8Value *utf8Value = nullptr;$/;"	m	line:30	class:NativeString
+utf8ValueMemory	node_modules/uws/src/addon.h	/^    char utf8ValueMemory[sizeof(String::Utf8Value)];$/;"	m	line:29	class:NativeString
+uv_async	node_modules/uws/src/Libuv.h	/^    uv_async_t uv_async;$/;"	m	line:28	struct:Async
+uv_os_sock_t	node_modules/uws/src/Asio.h	/^typedef boost::asio::ip::tcp::socket::native_type uv_os_sock_t;$/;"	t	line:6
+uv_os_sock_t	node_modules/uws/src/Epoll.h	/^typedef int uv_os_sock_t;$/;"	t	line:13
+uv_poll	node_modules/uws/src/Libuv.h	/^    uv_poll_t *uv_poll;$/;"	m	line:93	struct:Poll
+uv_timer	node_modules/uws/src/Libuv.h	/^    uv_timer_t uv_timer;$/;"	m	line:58	struct:Timer
+value	node_modules/uws/src/HTTPSocket.h	/^    char *key, *value;$/;"	m	line:11	struct:uWS::Header
+valueLength	node_modules/uws/src/HTTPSocket.h	/^    unsigned int keyLength, valueLength;$/;"	m	line:12	struct:uWS::Header
+wantsHead	node_modules/uws/src/WebSocketProtocol.h	/^        unsigned int wantsHead : 1;$/;"	m	line:35	struct:uWS::WebSocketState::State
+webSocketHead	node_modules/uws/src/Group.h	/^    WebSocket<isServer> *webSocketHead = nullptr;$/;"	m	line:53	struct:uWS::Group
+windowsInit	node_modules/uws/src/Networking.cpp	/^} windowsInit;$/;"	m	line:74	namespace:uS	typeref:struct:uS::WindowsInit	file:
+wouldBlock	node_modules/uws/src/Networking.h	/^    bool wouldBlock() {$/;"	f	line:148	struct:uS::Context
+wrapMessage	node_modules/uws/src/addon.h	/^inline Local<Value> wrapMessage(const char *message, size_t length, uWS::OpCode opCode, Isolate *isolate) {$/;"	f	line:101
+wrapSocket	node_modules/uws/src/addon.h	/^inline Local<External> wrapSocket(uWS::WebSocket<isServer> *webSocket, Isolate *isolate) {$/;"	f	line:92
+write	node_modules/uws/src/HTTPSocket.h	/^    void write(const char *message, size_t length = 0,$/;"	f	line:170	struct:uWS::HttpResponse
+write	node_modules/uws/src/Socket.h	/^    bool write(Queue::Message *message, bool &wasTransferred) {$/;"	f	line:304	struct:uS::Socket
+write	node_modules/uws/src/http.h	/^        static void write(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:169	struct:HttpServer::Response
+writeHead	node_modules/uws/src/http.h	/^        static void writeHead(const FunctionCallbackInfo<Value> &args) {$/;"	f	line:134	struct:HttpServer::Response
+wsaData	node_modules/uws/src/Networking.cpp	/^    WSADATA wsaData;$/;"	m	line:71	struct:uS::WindowsInit	file:
+~Context	node_modules/uws/src/Networking.cpp	/^Context::~Context()$/;"	f	line:23	class:uS::TLS::Context
+~Context	node_modules/uws/src/Networking.h	/^    ~Context() {$/;"	f	line:95	struct:uS::Context
+~Hub	node_modules/uws/src/Hub.h	/^    ~Hub() {$/;"	f	line:64	struct:uWS::Hub
+~Init	node_modules/uws/src/Networking.cpp	/^    ~Init() {\/*EVP_cleanup();*\/}$/;"	f	line:32	struct:uS::TLS::Init
+~NativeString	node_modules/uws/src/addon.h	/^    ~NativeString() {$/;"	f	line:62	class:NativeString
+~Node	node_modules/uws/src/Node.cpp	/^Node::~Node() {$/;"	f	line:67	class:uS::Node
+~Poll	node_modules/uws/src/Libuv.h	/^    ~Poll() {$/;"	f	line:109	struct:Poll
+~Timer	node_modules/uws/src/Libuv.h	/^    ~Timer() {$/;"	f	line:87	struct:Timer
+~WindowsInit	node_modules/uws/src/Networking.cpp	/^    ~WindowsInit() {WSACleanup();}$/;"	f	line:73	struct:uS::WindowsInit
